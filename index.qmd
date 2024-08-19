@@ -1,5 +1,5 @@
 ---
-title: "posit::conf(2024) notes"
+title: "Rosie's posit::conf(2024) notes"
 ---
 
 ![](images/posit-conf-2024-hexwall1.png)

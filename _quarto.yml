@@ -7,7 +7,7 @@ website:
   repo-url: https://github.com/rosiebae/positconf2024
   repo-actions: [edit, issue]
   title: "posit::conf(2024) notes"
-  page-footer: "Made with ❤️ and Quarto"
+  page-footer: "Made by Rosie Bae with ❤️ and Quarto"
   page-navigation: true
   navbar:
     left:
