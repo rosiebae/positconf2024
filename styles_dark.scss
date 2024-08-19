@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+
+$theme-turquoise: #297075;
+$theme-lightturquoise: #E2ECED;
+$theme-white: #FFFFFF;
+
+$link-color: $theme-lightturquoise;
+$navbar-bg: $theme-turquoise;
+$navbar-hl: $theme-white;
+
+$callout-color-tip: $theme-lightturquoise;
+
+// Define a variable for the navbar height
+$navbar-height: 59px; // Adjust this value as needed
+
+// Style for the navbar
+.navbar {
+  height: $navbar-height;
+}
