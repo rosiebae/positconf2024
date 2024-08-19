@@ -6,7 +6,7 @@ title: "Rosie's posit::conf(2024) notes"
 
 <br>
 
-:arrow_forward: **[Session Videos](https://www.youtube.com/@PositPBC) will become publicly available on YouTube in October/November 2024**
+:arrow_forward: **[Session videos](https://www.youtube.com/@PositPBC) will become publicly available on YouTube in November 2024**
 
 <br>
 
@@ -15,7 +15,7 @@ title: "Rosie's posit::conf(2024) notes"
 ## Recap
 * **Quarto Updates**
   + **Quarto Dashboards** make it easy to create interactive dashboards using Python, R, Julia, and Observable [[Link](https://quarto.org/docs/dashboards/)]
-    + *Keynote notes:* [[Link](keynotes.qmd#sec-keynotequarto)]
+    + *Keynote notes:* [[Link](keynotes.qmd#sec-keynotequarto)] | *Workshop notes:* [[Link](workshops\Build-a-Dashboard Workshop (with Quarto, R, Python).qmd)]
   + **Quarto + Typst** is the future of PDF; faster/better rendering and easier code [[Link](https://quarto.org/docs/output-formats/typst.html)]
     + Better tables with Quarto + Typst
       + Beautiful Tables in Typst – Quarto [[Link](https://quarto.org/docs/blog/posts/2024-07-02-beautiful-tables-in-typst/)]
@@ -32,6 +32,6 @@ title: "Rosie's posit::conf(2024) notes"
 * **`gt` / `Great Tables` Package** for tables [[R](https://gt.rstudio.com/) | [Python](https://posit-dev.github.io/great-tables/articles/intro.html)]
     + Important features are there, secondary features coming later
     + Works for PDF outputs (LaTeX/Typst)
-    + *Session notes:* [[Link](sessions_day1.qmd#sec-greattables)]
+    + *Session notes:* [[Link](sessions_day1.qmd#sec-greattables)] | *Workshop notes:* [[Link](workshops\Making Tables with gt and Great Tables.qmd)]
 
 :::
