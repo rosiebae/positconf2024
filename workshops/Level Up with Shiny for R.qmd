@@ -15,3 +15,9 @@ This workshop is for you if:
 ## Course Links
 
 -   [GitHub](https://posit-conf-2024.github.io/level-up-shiny/)
+
+### Notes
+* Quosures
+  + Programming Games with Shiny || Roll the Dice: with Quosures! || RStudio: [https://youtu.be/BaQldCBZhCI](https://youtu.be/BaQldCBZhCI)
+  + Defusing R expressions — topic-defuse: [https://rlang.r-lib.org/reference/topic-defuse.html](https://rlang.r-lib.org/reference/topic-defuse.html)
+  + Programming with dplyr: [https://dplyr.tidyverse.org/articles/programming.html](https://dplyr.tidyverse.org/articles/programming.html)

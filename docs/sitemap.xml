@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rosiebae.github.io/positconf2024/workshops.html</loc>
-    <lastmod>2024-08-18T08:17:12.876Z</lastmod>
+    <lastmod>2024-08-19T04:46:04.319Z</lastmod>
   </url>
   <url>
     <loc>https://rosiebae.github.io/positconf2024/workshops/Using Databricks with R.html</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://rosiebae.github.io/positconf2024/workshops/Level Up with Shiny for R.html</loc>
-    <lastmod>2024-08-18T08:04:23.216Z</lastmod>
+    <lastmod>2024-08-19T03:41:47.265Z</lastmod>
   </url>
   <url>
     <loc>https://rosiebae.github.io/positconf2024/workshops/Introduction to Shiny for R.html</loc>
@@ -54,23 +54,19 @@
   </url>
   <url>
     <loc>https://rosiebae.github.io/positconf2024/sessions_day2.html</loc>
-    <lastmod>2024-08-19T02:37:45.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rosiebae.github.io/positconf2024/recap.html</loc>
-    <lastmod>2024-08-19T02:06:07.806Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rosiebae.github.io/positconf2024/index.html</loc>
-    <lastmod>2024-08-19T02:42:25.368Z</lastmod>
+    <lastmod>2024-08-19T04:49:36.691Z</lastmod>
   </url>
   <url>
     <loc>https://rosiebae.github.io/positconf2024/keynotes.html</loc>
-    <lastmod>2024-08-18T08:17:43.160Z</lastmod>
+    <lastmod>2024-08-19T04:48:58.506Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rosiebae.github.io/positconf2024/index.html</loc>
+    <lastmod>2024-08-19T04:35:25.814Z</lastmod>
   </url>
   <url>
     <loc>https://rosiebae.github.io/positconf2024/sessions_day1.html</loc>
-    <lastmod>2024-08-19T02:37:40.397Z</lastmod>
+    <lastmod>2024-08-19T04:49:09.028Z</lastmod>
   </url>
   <url>
     <loc>https://rosiebae.github.io/positconf2024/workshops/Advanced Tidymodels.html</loc>

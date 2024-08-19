@@ -4,24 +4,39 @@ title: "Sessions (Day 1)"
 
 :::{.callout-tip}
 
-## Session Info
-* Day 1 (08/13/2024)
-* [[GitHub](https://github.com/rstudio/rstudio-conf/blob/master/2024/README.md)]
+## Day 1
+* **08/13/2024 | [[GitHub](https://github.com/rstudio/rstudio-conf/blob/master/2024/README.md)]**
 
 :::
 
 
 ### Navigating A Career In Data Science
 
-*Tuesday, Aug 13 10:20 AM - 11:40 AM PDT*
+```markdown
+Tuesday, Aug 13 10:20 AM - 11:40 AM PDT
+```
 
-#### Beyond the Classroom: Unspoken Realities of a Data Science Career - Brandon Sucher
+#### Beyond the Classroom: Unspoken Realities of a Data Science Career
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Brandon Sucher
+
+:::
 
 * Expand your network
 * Find your niche
 * Advocate for yourself
 
-#### GitHub: How To Tell Your Professional Story - Abigail Haddad
+#### GitHub: How To Tell Your Professional Story
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Abigail Haddad
+
+:::
 
 * GitHub can demonstrate your problem solving approach
   + The code tells that story
@@ -58,27 +73,49 @@ title: "Sessions (Day 1)"
 
 ### Introducing Positron, a new data science IDE
 
-*Tuesday, Aug 13 10:20 AM - 11:40 AM PDT*
+```markdown
+Tuesday, Aug 13 10:20 AM - 11:40 AM PDT
+```
 
 Positron discussions: [https://github.com/posit-dev/positron/discussions](https://github.com/posit-dev/positron/discussions)
 
-#### Introducing Positron - Julia Silge
+#### Introducing Positron
 
-[Sildes](https://speakerdeck.com/juliasilge/introducing-positron)
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Julia Silge
+* [Sildes](https://speakerdeck.com/juliasilge/introducing-positron)
+
+:::
 
 * [Positron](https://github.com/posit-dev/positron)
   + Next generation data science IDE
   + Multilingual/polyglot IDE (R & Python support currently)
   + Built on VS Code
 
-#### Exploratory Data Analysis with Python in Positron - Isabel Zimmerman
+#### Exploratory Data Analysis with Python in Positron
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Isabel Zimmerman
+
+:::
 
 * Viewer pane
 * Connections pane
 * Help pane
 * Plots pane
 
-#### Debugging Data with the Positron Data Explorer - Tom Mock
+#### Debugging Data with the Positron Data Explorer
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Tom Mock
+
+:::
 
 * A next-gen data explorer
   + Data viewer grid
@@ -99,7 +136,14 @@ Positron discussions: [https://github.com/posit-dev/positron/discussions](https:
   + Missing data percentage
   + Summary statistics
 
-#### Architecture and Design of Positron - Jonathan McPherson
+#### Architecture and Design of Positron
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Jonathan McPherson
+
+:::
 
 * Positron is a polyglot IDE focused on data science.
 * It's a Code OSS fork, like Visual Studio Code is.
@@ -112,9 +156,18 @@ Positron discussions: [https://github.com/posit-dev/positron/discussions](https:
 
 ### Beautiful And Effective Tables
 
-*Tuesday, Aug 13 1:00 PM - 2:20 PM PDT*
+```markdown
+Tuesday, Aug 13 1:00 PM - 2:20 PM PDT
+```
 
-#### Adequate Tables? No, We Want Great Tables - Richard Iannone
+#### Adequate Tables? No, We Want Great Tables {#sec-greattables}
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Richard Iannone
+
+:::
 
 * [`gt` R package](https://gt.rstudio.com/)
 * Initial goals
@@ -155,7 +208,14 @@ Positron discussions: [https://github.com/posit-dev/positron/discussions](https:
 * Questions
   + HTML tables are translated to typst
 
-#### Context is King - Shannon Pileggi
+#### Context is King
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Shannon Pileggi
+
+:::
 
 * Data stewardship: How do we insure data integrity?
 * Source data context can and should be embedded in your data
@@ -195,7 +255,14 @@ flights_dictionary <- flights_schema |>
   + 1. Maintain a csv with metadata
   + 2. Apply custom function for bulk label assignment (e.g., `croquett::set_derived_variable_labels()`); in an iterative framework if you have many lists
 
-#### gtsummary: Streamlining Summary Tables for Research and Regulatory Submissions - Daniel Sjoberg
+#### gtsummary: Streamlining Summary Tables for Research and Regulatory Submissions
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Daniel Sjoberg
+
+:::
 
 * [`gtsummary` R package](https://www.danieldsjoberg.com/gtsummary/)
 
@@ -235,7 +302,9 @@ list(tbl_uni, tbl_mod) |>
 
 ### Lightning Talks
 
-*Tuesday, Aug 13 1:00 PM - 2:20 PM PDT*
+```markdown
+Tuesday, Aug 13 1:00 PM - 2:20 PM PDT
+```
 
 #### Templated Analyses within R Packages for Collaborative, Reproducible Research
 
@@ -262,9 +331,18 @@ list(tbl_uni, tbl_mod) |>
 
 ### Automated Reporting With Quarto: Beyond Copy And Paste
 
-*Tuesday, Aug 13 2:40 PM - 4:00 PM PDT*
+```markdown
+Tuesday, Aug 13 2:40 PM - 4:00 PM PDT
+```
 
-#### Beyond Dashboards: Dynamic Data Storytelling with Python, R, and Quarto Emails - Sean Nguyen
+#### Beyond Dashboards: Dynamic Data Storytelling with Python, R, and Quarto Emails
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Sean Nguyen
+
+:::
 
 * Remove friction
   + Logging in can create barriers
@@ -342,13 +420,27 @@ send_email_with_leads <- function(num_leads, system_date) {
   + Be selective with delivery criteria
   + Think about "so what"
 
-#### Automated Reporting With Quarto: Beyond Copy and Paste - Orla Doyle
+#### Automated Reporting With Quarto: Beyond Copy and Paste
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Orla Doyle
+
+:::
 
 * A pharmaceutical company (Novartis) created a package ({rdocx}) that generates reproducible word documents using R Markdown using a company template
   + Mandatory elements are represented as R6 classes where each attribute has a unique input requirement that goes through a series of checks
   + Embedded good software development practices
 
-#### Quarto: A Multifaceted Publishing Powerhouse for Medical Researchers - Joshua Cook
+#### Quarto: A Multifaceted Publishing Powerhouse for Medical Researchers
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Joshua Cook
+
+:::
 
 * Quarto allows us to efficiency create various polished formats from a single source document (in this case, stored in the /Analysis folder)
   + Never include all of your code in one Quarto markdown; use shortcodes instead to import analyses/figures, etc. so that you can output the same figure in multiple formats (e.g., PPT/PDF Manuscript, etc.)
@@ -369,9 +461,18 @@ send_email_with_leads <- function(num_leads, system_date) {
 
 ### Is It Supposed To Hurt This Much?
 
-*Tuesday, Aug 13 2:40 PM - 4:00 PM PDT*
+```markdown
+Tuesday, Aug 13 2:40 PM - 4:00 PM PDT
+```
 
-#### "Please Let Me Merge Before I Start Crying": And Other Things I've Said at the Git Terminal - Meghan Harris
+#### "Please Let Me Merge Before I Start Crying": And Other Things I've Said at the Git Terminal
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Meghan Harris
+
+:::
 
 * Git =/= GitHub
   + Git: Version control system
@@ -415,7 +516,14 @@ send_email_with_leads <- function(num_leads, system_date) {
       + Leave nothing behind
       + You are reviewer #1
 
-#### Easing the pain of connecting to databases - Edgar Ruiz
+#### Easing the pain of connecting to databases
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Edgar Ruiz
+
+:::
 
 * Improvements to the [`odbc` R package](https://cran.r-project.org/web/packages/odbc/index.html)
   + Connecting to Databricks/Snowflakes becomes simpler 
@@ -426,7 +534,14 @@ send_email_with_leads <- function(num_leads, system_date) {
     + Use a traditional username & PW
 * DB Connection Pane in Positron
 
-#### Auth is the product, making data access simple with Posit Workbench - Aaron Jacobs
+#### Auth is the product, making data access simple with Posit Workbench
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Aaron Jacobs
+
+:::
 
 * Posit Public Package Manager (P3M)
   + A free, hosted service based on our professional Posit Package Manager

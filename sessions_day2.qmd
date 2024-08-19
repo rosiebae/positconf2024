@@ -4,9 +4,8 @@ title: "Sessions (Day 2)"
 
 :::{.callout-tip}
 
-## Session Info
-* Day 2 (08/14/2024)
-* [[GitHub](https://github.com/rstudio/rstudio-conf/blob/master/2024/README.md)]
+## Day 2
+* **08/14/2024 | [[GitHub](https://github.com/rstudio/rstudio-conf/blob/master/2024/README.md)]**
 
 :::
 
@@ -14,11 +13,19 @@ title: "Sessions (Day 2)"
 
 ### Pour Some Glitter On It: Custom Quarto Outputs
 
-*Wednesday, Aug 14 1:00 PM - 2:20 PM PDT*
+```markdown
+Wednesday, Aug 14 1:00 PM - 2:20 PM PDT
+```
 
-#### Report Design in R: Small Tweaks that Make a Big Difference - David Keyes
+#### Report Design in R: Small Tweaks that Make a Big Difference {#sec-typstexample}
 
-[[Slides](https://positconf2024.rfortherestofus.com/slides.html) | [GitHub Repo](https://github.com/rfortherestofus/report-design)]
+:::{.callout-tip}
+
+## Session Info
+* Presenter: David Keyes
+* [[Slides](https://positconf2024.rfortherestofus.com/slides.html) | [GitHub Repo](https://github.com/rfortherestofus/report-design)]
+
+:::
 
 * Framework for good design
   + Do: Be consistent
@@ -112,9 +119,15 @@ update_geom_defaults(
 ) # at beginning of script or quarto document
 ```
 
-#### Reproducible, dynamic, and elegant books with Quarto - Mine Cetinkaya-Rundel
+#### Reproducible, dynamic, and elegant books with Quarto
 
-[[Slides](https://mine-cetinkaya-rundel.github.io/quarto-books-conf24) | [GitHub Repo](https://github.com/mine-cetinkaya-rundel/quarto-books-conf24)]
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Mine Cetinkaya-Rundel
+* [[Slides](https://mine-cetinkaya-rundel.github.io/quarto-books-conf24) | [GitHub Repo](https://github.com/mine-cetinkaya-rundel/quarto-books-conf24)]
+
+:::
 
 * Book with multiple outputs: HTML, PDF
   + Wanted different outputs to look similar in style
@@ -158,9 +171,15 @@ update_geom_defaults(
     + Use `embed` shortcode to insert from two source notebooks to include two recognizable outputs on a single page
   + Productivity with `freeze`
 
-#### Designing and Deploying Internal Quarto Templates - Meghan Hall
+#### Designing and Deploying Internal Quarto Templates
 
-[Text of talk](https://meghan.rbind.io/blog/2024-08-14-quarto-templates/)
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Meghan Hall
+* [Text of talk](https://meghan.rbind.io/blog/2024-08-14-quarto-templates/)
+
+:::
 
 * Quarto templates using corporate styling
 * Why bother?
@@ -176,7 +195,7 @@ Example:
 
 qmd file
 
-```{markdown}
+```markdown
 #| echo: true
 #| eval: false
 
@@ -224,7 +243,14 @@ scss file
 * Q&A
   + Internal package vs. Quarto use template command on a GitHub repository?
 
-#### Closeread: bringing Scrollytelling to Quarto - Andrew Bray {#sec-closeread}
+#### Closeread: bringing Scrollytelling to Quarto {#sec-closeread}
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Andrew Bray
+
+:::
 
 * Example: [A Poem (and a Painting) About the Suffering That Hides in Plain Sight NYT Article](https://www.nytimes.com/interactive/2022/03/06/books/auden-musee-des-beaux-arts.html)
 * Scrollytelling: where you have a narrative that's scrolling down the page as you scroll, but that scrolling behavior is modifying what you're looking at (e.g., panning across images, highlighting text, zooming into text, playing a video)
@@ -289,9 +315,18 @@ scss file
 
 ### Level Up Your Data Science Skills
 
-*Wednesday, Aug 14 1:00 PM - 2:20 PM PDT*
+```markdown
+Wednesday, Aug 14 1:00 PM - 2:20 PM PDT
+```
 
-#### Level up! Empowering industry R users with different levels of experience - Seth Copolnix
+#### Level up! Empowering industry R users with different levels of experience
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Seth Copolnix
+
+:::
 
 * Internal R packages: Why?
   + Reuse code
@@ -323,9 +358,15 @@ scss file
     + Advertise your contributions
   + Holding office hours to give folks a place to ask for advice
 
-#### Quarto for Knowledge Management - Cynthia Huang
+#### Quarto for Knowledge Management
 
-[[Slides](https://github.com/cynthiahqy/positconf2024/blob/main/slides.pdf) | [GitHub Repo](https://github.com/cynthiahqy/positconf2024)]
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Cynthia Huang
+* [[Slides](https://github.com/cynthiahqy/positconf2024/blob/main/slides.pdf) | [GitHub Repo](https://github.com/cynthiahqy/positconf2024)]
+
+:::
 
 * Using Quarto to get started with simple, powerful, and fun note-taking/knowledge management
   + Websites
@@ -347,9 +388,18 @@ scss file
 
 ### Data Science Case Studies
 
-*Wednesday, Aug 14 1:00 PM - 2:20 PM PDT*
+```markdown
+Wednesday, Aug 14 1:00 PM - 2:20 PM PDT
+```
 
-#### Open Source Software in Action: Expanding the Spatial Equity Data Tool - Gabriel Morrison
+#### Open Source Software in Action: Expanding the Spatial Equity Data Tool
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Gabriel Morrison
+
+:::
 
 * Online Quarto Book for Documentation
   + Handle code
@@ -363,17 +413,33 @@ scss file
 
 
 
-### ***Data Visualizations: Idea > Process > Sharing
+### Data Visualizations: Idea > Process > Sharing
 
-*Wednesday, Aug 14 2:40 PM - 4:00 PM PDT*
+```markdown
+Wednesday, Aug 14 2:40 PM - 4:00 PM PDT
+```
 
-#### Creating multi-figure visualizations with Patchwork - Thomas Lin Pedersen
+#### Creating multi-figure visualizations with Patchwork
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Thomas Lin Pedersen
+
+:::
 
 * [`patchwork` R package](https://patchwork.data-imaginist.com/)
   + Concerned with aligning everything because one of its main uses is to create a cohesive single visualization containing multiple plots
 * API-first package design
 
-#### From idea to code to image: Creative data visualizations in R - Georgios Karamanis
+#### From idea to code to image: Creative data visualizations in R
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Georgios Karamanis
+
+:::
 
 * Finding inspiration
   + Look at other people's work
@@ -403,9 +469,15 @@ scss file
   + Keep a list of ideas, packages, code snippets, etc. - don't wait for inspiration
   + Just do it, creativity shouldn't be the goal - You can't be creative all the time
 
-#### Be Kind, Rewind - Ellis Hughes
+#### Be Kind, Rewind
 
-[[GitHub Repo](https://github.com/thebioengineer/posit_conf_2024_be_kind_rewind)]
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Ellis Hughes
+* [[GitHub Repo](https://github.com/thebioengineer/posit_conf_2024_be_kind_rewind)]
+
+:::
 
 * [`camcorder` R package](https://cran.r-project.org/web/packages/camcorder/index.html): allows you to preview your visualizations exactly as they will be saved, but also records every plot you create, turning your creative process into a compelling narrative
   + puts into a GIF format

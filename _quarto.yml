@@ -25,9 +25,6 @@ website:
         menu:
           - sessions_day1.qmd
           - sessions_day2.qmd
-      - href: recap.qmd
-        text: Recap
-        icon: bi-bookmark
 
 format:
   html:
@@ -37,7 +34,9 @@ format:
     toc: true
     from: markdown+emoji
     number-sections: true
-    number-depth: 2
+    number-depth: 1
+    toc-depth: 4
+    toc-expand: 1
     embed-resources: true
     other-links:
       - text: posit::conf(2024) webpage
@@ -59,5 +58,5 @@ format:
         icon: youtube
         href: https://www.youtube.com/@PositPBC
 
-editor: visual
+editor: source
 

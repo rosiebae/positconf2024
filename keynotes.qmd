@@ -2,8 +2,230 @@
 title: "Keynotes"
 ---
 
-About this site
-
 ```{r}
-1 + 1
+#| include: false
+
 ```
+
+## Day 1 (08/13/2024)
+
+```markdown
+Tuesday, Aug 13 9:00 AM - 10:00 AM PDT
+```
+
+### Updates from Posit
+
+#### Quarto Updates {#sec-keynotequarto}
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Hadley Wickham
+
+:::
+
+* [Quarto dashboards](https://quarto.org/docs/dashboards/)
+  + Cards are the fundamental unit
+    + Columns / Rows
+    + `format: dashboard` in YAML
+    + Markdown headings to specify display
+    + Add dashboard components
+      + Value boxes (highlighting numbers)
+      + Input panels (way to group together interactive input into sidebars/toolbars)
+      + Add interactivity
+        + Native support for Observable JS
+        + Use frameworks like leaflet, plotly, threejs, etc. via htmlwidgets (R) and Jupyter Widgets (Python)
+        + Add Shiny & Shiny for Python inputs and outputs directly into code cells
+    + quarto.org > Guide > Dashboards
+* The future of PDF
+  + [typst](https://typst.app/) is the future of PDF
+    + [Quarto output format: typst](https://quarto.org/docs/output-formats/typst.html)`format: typst`
+    + Easy to get started, fast, easier to learn, customizable
+  + Converts html tables to typst properties
+    + Example: GT table - [Grant Chalmers](posit-dev.github.io/great-tables/examples)
+  + Example: [PBC report](https://posit.co/wp-content/uploads/2024/05/Posit-BenefitCorporation-2023-Annual-Report.pdf) was made with typst
+* Community contributions
+  + Native Julia engine
+  + [Quarto extensions](https://quarto.org/docs/extensions/)
+
+#### webR
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: George Stagg
+
+:::
+
+* [webR](https://docs.r-wasm.org/webr/latest/)
+* R for WebAssembly; Executive R code in your web browser
+* Example: [https://webr.r-wasm.org/latest/](https://webr.r-wasm.org/latest/)
+* WebAssembly
+  + Portable binary code format
+  + High-performance web applications
+  + Near-native execution speed
+  + Supported by most modern browsers
+  + Interactive through JavaScript
+* Shinylive
+  + Serverless Shiny apps powered by WebAssembly Standalone or embedded in Quarto documents
+  + posit::conf(2023) talk: [Running R-Shiny without a Server](https://www.youtube.com/watch?v=j1M6YyU2ZX8)
+  + Examples: [https://shinylive.io/r/examples/](https://shinylive.io/r/examples/)
+* [Quarto Live](https://r-wasm.github.io/quarto-live/) | [GitHub](https://github.com/r-wasm/quarto-live)
+  + Interactive documents and code exercises in Quarto powered by WebAssembly
+  + `format: live-html`; block to `webr`
+  + Also works on mobile devices/tablets
+  + Grading code: Custom feedback algorithms
+  + Dynamic Documents: WebAssembly + Observable JS
+  + Works in Python
+
+#### Partnerships with Databricks and Snowflake
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: James Blair
+
+:::
+
+* Infrastructure Management
+  + Posit Workbench (Databricks)
+* Data Access
+  + Posit Workbench (odbc to connect to Databricks/Snowflake)
+* Application Deployment (authentication; data security)
+  + Posit Connect
+
+#### Positron
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Hadley Wickham
+
+:::
+
+* New multilingual IDE in Posit built on VS Code
+
+```markdown
+Tuesday, Aug 13 4:15 PM - 5:15 PM PDT
+```
+
+### Practical Tips for using Generative AI in Data Science Workflows
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Melissa Van Bussel
+* [[Slides](https://github.com/melissavanbussel/posit-conf-2024/blob/main/slides.pdf) | [GitHub Repo](https://github.com/melissavanbussel/posit-conf-2024)]
+
+:::
+
+* [GPT 4.o](https://openai.com/index/hello-gpt-4o) has great image processing capabilities
+* Math
+  + Example: Processing a math equation written on paper into Quarto code
+    + *Prompt: Convert the text in the image into a Quarto document, using `format: html` and keep the same text formatting (bold, italic, underline, etc.)*
+    + *Prompt: Convert the text in the image into a Quarto document, using `format: html`, and use styling to make sure that the font styles (e.g., bold, italic) and colors match the image, where possible. Align the math around the equals signs.*
+      + Also asking it to add styling to match pen colors
+
+![](images/AI_math_quarto_conversion.png)
+
+* Data entry
+  + *Prompt: Convert the table in the image into a downloadable CSV.*
+    + Shows you an interactive preview of the dataset; can also modify it on the fly (e.g., highlight different columns/cells, provide data cleaning/formatting instructions)
+  + *Prompt: Simulate additional observations so that there are 1000 rows. Create two additional variables, "Years of Experience" and "Education level." Ensure that the generated information and salaries are realistic.*
+  + *Prompt: Provide a short overview of the dataset, including the data types for each variable.*
+  + *Prompt: Provide summary statistics.*
+  + *Prompt: Analyze the dataset and extract interesting facts. Use data storytelling techniques to weave together a short (75 word) paragraph that pulls together key insights.*
+* Analysis
+  + *Prompt: Create a data visualization using the salaries dataset. Put average salary on the y-axis and job role on the x-axis. Use a different color for each job role. Create a bar chart that's faceted by the industry variable. Add a horizontal black line showing the average salary for each industry. Format the y-axis as dollar amounts. Use a modern color palette and a minimal theme. Display a legend on the right.*
+    + Write prompt to be consistent with the grammar of graphics
+    + Will show you code and graph (you can now run Python code directly within chat)
+* Creating slides using Quarto themes
+  + GitHub Pages / GitLab Pages to host a Quarto project
+    + [Generative AI Quarto Theme Generator Shiny App](https://melissavanbussel.shinyapps.io/quarto_theme_generator/)
+* Creating a logo for a hex sticker
+  + Transparent background, scaled easily without becoming pixelated
+  + Text to svg generators
+    + Example: [Recraft AI](https://www.recraft.ai)
+    + Text prompt and specify height, width, color palette, how simple/detailed, art styles
+    + Generate mock-ups
+* Two tools that use Generative AI to make teaching and communicating about data easier
+  + [Scribe](https://scribehow.com/): Automatically create step-by-step tutorials without copy-pasting screenshots or recording videos
+    + Scribe Chrome extension to create automatic screenshots/instructions (e.g., where you clicked will be highlighted)
+    + Can share it for free (direct link or by email)
+    + Can embed as an iframe, for example, on a Quarto website
+    + Pro-subscription for desktop version of Scribe; can export in variety of formats (including Markdown)
+  + [descript](https://www.descript.com): Edit videos and audio/podcasts as if you're editing a Word document
+    + Upload video/audio file and it will be transcribed (available in over 20 different language)
+    + Once the transcript is ready, you can edit the transcript in order to edit the video itself
+    + Can remove awkward silences (shorten word gaps) and remove filler words
+    + AI speech generation capabilities
+      + Regenerate: You can use your voice clone to regenerate content
+      + Overdub: You can use to replace wordings
+    + Other AI features
+      + Eye contact
+      + Remove retakes
+      + YouTube descriptions: from your transcript, descript will generate a YouTube-style description and provide timestamps for sections
+* Guidelines for responsible use
+  + [Guide on the use of generative artificial intelligence of Canada](https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/guide-use-generative-ai.html)
+
+
+
+
+## Day 2 (08/14/2024)
+
+```markdown
+Wednesday, Aug 14 9:00 AM - 10:00 AM PDT
+```
+
+### A future of data science
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Allen Downey
+* [[Slides](https://docs.google.com/presentation/d/e/2PACX-1vSdoq58S1DbhSKikfu3m52B4oMB5DFgyvxr0qy4Rhilojq6G2oRqTLmWMKuKtEBQVoDEr-XXv0--10H/pub?slide=id.p)]
+
+:::
+
+* Keynote speaker argues data science exists because statistics missed the boat on computers
+  + Technological trigger for data science was computation because statistics as a field missed the boat on computation
+* Hype of data science
+  + Technology trigger
+  + Peak of inflated expectations (2012)
+  + Trough of disillusionment (2016-)
+  + Slope of enlightenment
+  + Plateau of productivity
+* Slope of enlightenment
+  + Two things that make me optimistic
+    + Improving data literacy
+    + More and more available data
+  + One that makes me worry
+    + Excessive consumption of relentless negative media
+
+```markdown
+Wednesday, Aug 14 4:15 PM - 5:15 PM PDT
+```
+
+### Data Wrangling [for Python or R] Like a Boss With DuckDB
+
+:::{.callout-tip}
+
+## Session Info
+* Presenter: Hannes Mühleisen
+
+:::
+
+* [`DuckDB` package](https://duckdb.org/docs/installation/)
+  + Advanced CSV reader
+  + Native support for Parquet files and Arrow structures
+  + An efficient parallel vectorized query processing engine
+  + Support for efficient atomic updates to tables
+* Advantages
+  + Zero-dependency package available in multiple languages
+  + Batteries included: Fully featured data management system
+  + Fast
+  + Free!
+* Simple queries
+  + Read dataset (`CREATE TABLE ... AS FROM Data8277.csv`)
+  + Compute summary statistics (`SUMMARIZE FROM "Data8277.csv`)
+* [`duckplyr` R package](https://duckdb.org/2024/04/02/duckplyr.html): `dplyr` + `DuckDB`
