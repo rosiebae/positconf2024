@@ -12,7 +12,7 @@ title: "Rosie's posit::conf(2024) notes"
 
 :::{.callout-tip}
 
-## Recap
+## Highlights
 * **Quarto Updates**
   + **Quarto Dashboards** make it easy to create interactive dashboards using Python, R, Julia, and Observable [[Link](https://quarto.org/docs/dashboards/)]
     + [Relevant material]: *Keynote notes:* [[Link](keynotes.qmd#sec-keynotequarto)] | *Workshop notes:* [[Link](workshops\Build-a-Dashboard Workshop (with Quarto, R, Python).qmd)]
