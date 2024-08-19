@@ -403,7 +403,14 @@
     "href": "workshops/Making Tables with gt and Great Tables.html",
     "title": "Making Tables with gt and Great Tables*",
     "section": "",
-    "text": "The gt package for R and the Great Tables package for Python both deal with an important element of written communication: tables. We don’t believe tables have to be drab or dull. Rather, we think that tables have the power to inspire and to excite!\nIn this workshop, you’ll learn about how to make tables that can accurately convey information yet look aesthetically pleasing. We will handle the first stumbling block: what do we even call the different parts of a table? After getting the table terminology down we’ll learn how to effectively assemble the table components and create powerful displays of information. We will start simply and progressively, working toward more complex table designs. Since there are two packages (one in R, one in Python) we will take a blended approach and learn about table generation in bilingual fashion.\nWe’ll cover the following:\n\nCreate table components and put them together (e.g., header, footer, stub, etc.)\nFormat cell values (numeric/scientific, date/datetime, etc.)\nRearranging columns and handling column value alignments\nStyling the table, either through data values or on a more granular level\nAdding icons, plots, images, and incorporating your own HTML more!\n\nThis course is for you if you:\n\nhave some basic working knowledge of either R or Python (separate sets of materials will be available for both R and Python),\nhave data you often need to present as data summaries\nwould like to level-up your ability to generate tables for publication"
+    "text": "The gt package for R and the Great Tables package for Python both deal with an important element of written communication: tables. We don’t believe tables have to be drab or dull. Rather, we think that tables have the power to inspire and to excite!\nIn this workshop, you’ll learn about how to make tables that can accurately convey information yet look aesthetically pleasing. We will handle the first stumbling block: what do we even call the different parts of a table? After getting the table terminology down we’ll learn how to effectively assemble the table components and create powerful displays of information. We will start simply and progressively, working toward more complex table designs. Since there are two packages (one in R, one in Python) we will take a blended approach and learn about table generation in bilingual fashion.\nWe’ll cover the following:\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Making Tables with gt and Great Tables.html#course-links",
+    "href": "workshops/Making Tables with gt and Great Tables.html#course-links",
+    "title": "Making Tables with gt and Great Tables*",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub\nSlides"
   },
   {
     "objectID": "workshops/Posit Academy Introduction to Data Science with R.html",

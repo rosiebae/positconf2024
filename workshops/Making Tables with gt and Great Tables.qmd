@@ -21,3 +21,7 @@ This course is for you if you:
 * have some basic working knowledge of either R or Python (separate sets of materials will be available for both R and Python),
 * have data you often need to present as data summaries
 * would like to level-up your ability to generate tables for publication
+
+## Course Links
+* [GitHub](https://github.com/posit-conf-2024/tables)
+* [Slides](https://github.com/posit-conf-2024/tables/blob/main/slides/tables_workshop_slides.pdf)
