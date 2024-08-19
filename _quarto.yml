@@ -27,8 +27,8 @@ website:
 format:
   html:
     theme:  # flatly, zephyr, journal
-      light: [journal, styles_light.css]
-      dark: darkly
+      light: [journal, styles.css]
+      dark: [darkly, styles.css]
     toc: true
     from: markdown+emoji
     number-sections: true
