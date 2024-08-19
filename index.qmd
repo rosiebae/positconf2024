@@ -30,7 +30,6 @@ title: "Rosie's posit::conf(2024) notes"
 * **Positron** is a next-generation data science IDE that is multilingual/polyglot (built on VS Code with an interactive data editor) [[Link](https://github.com/posit-dev/positron/wiki) | [GitHub](https://github.com/posit-dev/positron)]
   + *Session notes:* [[Link](sessions_day1.qmd#sec-positron)]
 * **`gt` / `Great Tables` Package** for tables [[R](https://gt.rstudio.com/) | [Python](https://posit-dev.github.io/great-tables/articles/intro.html)]
-    + Important features are there, secondary features coming later
     + Works for PDF outputs (LaTeX/Typst)
     + *Session notes:* [[Link](sessions_day1.qmd#sec-greattables)] | *Workshop notes:* [[Link](workshops\Making Tables with gt and Great Tables.qmd)]
 
