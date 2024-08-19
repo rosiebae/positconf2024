@@ -15,21 +15,23 @@ title: "Rosie's posit::conf(2024) notes"
 ## Recap
 * **Quarto Updates**
   + **Quarto Dashboards** make it easy to create interactive dashboards using Python, R, Julia, and Observable [[Link](https://quarto.org/docs/dashboards/)]
+    + *Keynote notes:* [[Link](keynotes.qmd#sec-keynotequarto)]
   + **Quarto + Typst** is the future of PDF; faster/better rendering and easier code [[Link](https://quarto.org/docs/output-formats/typst.html)]
     + Better tables with Quarto + Typst
       + Beautiful Tables in Typst – Quarto [[Link](https://quarto.org/docs/blog/posts/2024-07-02-beautiful-tables-in-typst/)]
       + Quarto now allows HTML Tables with CSS styling (e.g., tables created by the `gt` package) to be output in Typst by translating CSS properties into Typst properties
     + Example report from Quarto + Typst: PBC report [[Link](https://posit.co/wp-content/uploads/2024/05/Posit-BenefitCorporation-2023-Annual-Report.pdf)]
-    + Session notes: [[Link](sessions_day2.qmd#sec-typstexample)]
+    + *Keynote notes:* [[Link](keynotes.qmd#sec-keynotequarto)] | *Session notes:* [[Link](sessions_day2.qmd#sec-typstexample)]
   + **New Quarto Extensions** [[Link](https://quarto.org/docs/extensions/)]
     + **Closeread**: Interactive, scroll-based **scrollytelling** [[Link](closeread.netlify.app) | [GitHub](https://github.com/qmd-lab/closeread)]
-      + Session notes: [[Link](sessions_day2.qmd#sec-closeread)]
-    + **Quarto Live** for interactive code snippets/exercises powered by WebAssembly + Observable JS (useful for educational materials) [[Link](https://r-wasm.github.io/quarto-live/) | [GitHub](https://github.com/r-wasm/quarto-live)]
-  + Keynote notes: [[Link](keynotes.qmd#sec-keynotequarto)]
+      + *Session notes:* [[Link](sessions_day2.qmd#sec-scrollytelling)]
+    + **Quarto Live**: Interactive code snippets/exercises powered by WebAssembly + Observable JS (useful for educational materials) [[Link](https://r-wasm.github.io/quarto-live/) | [GitHub](https://github.com/r-wasm/quarto-live)]
+      + *Keynote notes:* [[Link](keynotes.qmd#sec-webr)]
 * **Positron** is a next-generation data science IDE that is multilingual/polyglot (built on VS Code with an interactive data editor) [[Link](https://github.com/posit-dev/positron/wiki) | [GitHub](https://github.com/posit-dev/positron)]
+  + *Session notes:* [[Link](sessions_day1.qmd#sec-positron)]
 * **`gt` / `Great Tables` Package** for tables [[R](https://gt.rstudio.com/) | [Python](https://posit-dev.github.io/great-tables/articles/intro.html)]
     + Important features are there, secondary features coming later
     + Works for PDF outputs (LaTeX/Typst)
-    + Session notes: [[Link](sessions_day1.qmd#sec-greattables)]
+    + *Session notes:* [[Link](sessions_day1.qmd#sec-greattables)]
 
 :::

@@ -47,7 +47,7 @@ Tuesday, Aug 13 9:00 AM - 10:00 AM PDT
   + Native Julia engine
   + [Quarto extensions](https://quarto.org/docs/extensions/)
 
-#### webR
+#### webR {#sec-webr}
 
 :::{.callout-tip}
 
