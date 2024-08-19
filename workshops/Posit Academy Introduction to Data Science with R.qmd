@@ -1,0 +1,22 @@
+---
+title: "Posit Academy: Introduction to Data Science with R*"
+format: html
+---
+
+Looking for Introduction to Data Science with Python? We are offering this as part of our “Posit Academy + Workshop Pass,” available for purchase during registration.
+
+This is not a standard workshop, but a six-week, online Posit Academy apprenticeship followed by a one-day, in-person learning experience at posit::conf(2024).
+
+Here, you will learn the foundations of R for data science together with a close group of fellow learners, under the guidance of a Posit Academy mentor. Topics will include the basics of R, importing data, visualizing and wrangling data with the tidyverse, and reporting reproducibly with Quarto.
+
+Online Experience (July 1st - August 9th)
+You will be expected to complete a weekly curriculum of interactive tutorials and an applied data science project. You will attend two weekly meetings with your mentor and fellow learners via Zoom to work together, ask questions, and share your work with your group. Visit posit.co/academy to learn more about this uniquely effective learning format.
+
+In-person experience (August 12th)
+You will join your fellow learners at posit::conf(2024) to practice, apply and extend what you have learned through a series of group coding challenges, led by Posit Academy staff.
+
+This course is for you if you:
+
+* are new to R or the tidyverse,
+* have dabbled in R, but now want a rigorous foundation in up-to-date data science best practices, or
+* are a SAS or Excel user looking to switch your workflows to R.

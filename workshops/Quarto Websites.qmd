@@ -1,0 +1,32 @@
+---
+title: "Quarto Websites*"
+format: html
+---
+
+Do you need a professional website to showcase your work? Or have you got an idea for a website at work, but it needs to reflect your organization’s brand? If you’ve used Quarto to produce a document, you’ve already got the technical skills to create a Quarto website. In this workshop, you’ll learn everything else you need to build a website and customize its appearance.
+
+You’ll get a running start by using a template we’ve designed to be functional and attractive, but also act as a guide for your learning. Then you’ll:
+
+* Add pages and navigation, and learn best practices for structuring your content.
+* Customize the visual appearance of your site by mastering the basics of SCSS and CSS and how they apply to Quarto websites.
+* Use listings, a special kind of page, to showcase related content like blog posts, projects, or talks.
+
+By the end of the workshop you’ll have built and published (if you want) a personal website, but the same tools and techniques will apply to any kind of website you might like to build.
+
+We’ll assume you’ve used Quarto to produce documents, but we won’t assume you have any HTML, CSS/SCSS or Git/GitHub experience, nor will we assume any particular programming language (R, Python etc.) or level of programming experience.
+
+
+This course is for you if you:
+
+* Have used Quarto to generate documents (e.g. HTML, PDF, MS Word etc.)
+* Are comfortable editing plain text documents (e.g .qmd) in your IDE (e.g. RStudio, Visual Studio Code etc.)
+* Want to walk away with your own personal website
+
+## Course Links
+* [Website](https://posit-conf-2024.github.io/quarto-websites/)
+* [quarto cli](https://github.com/quarto-dev/quarto-cli/discussions)
+* [awesome quarto](https://github.com/mcanouil/awesome-quarto)
+
+## Notes
+*  gallery on quarto.org: [https://quarto.org/docs/gallery/#websites]( https://quarto.org/docs/gallery/#websites)
+* macOS color finder: [https://colorslurp.com/](https://colorslurp.com/)

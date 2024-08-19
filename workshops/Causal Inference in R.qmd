@@ -1,0 +1,54 @@
+---
+title: "Causal Inference in R*"
+format: html
+---
+
+In this workshop, we'll teach the essential elements of answering causal questions in R through causal diagrams, and causal modeling techniques such as propensity scores and inverse probability weighting.
+
+In both data science and academic research, prediction modeling is often not enough; to answer many questions, we need to approach them causally. In this workshop, we'll teach the essential elements of answering causal questions in R through causal diagrams, and causal modeling techniques such as propensity scores and inverse probability weighting. We'll also show that by distinguishing predictive models from causal models, we can better take advantage of both tools. You'll be able to use the tools you already know–the tidyverse, regression models, and more–to answer the questions that are important to your work.
+
+This course is for you if you:
+
+* know how to fit a linear regression model in R,
+* have a basic understanding of data manipulation and visualization using tidyverse tools, and
+* are interested in understanding the fundamentals behind how to move from estimating correlations to causal relationships.
+
+## Course Links
+* [GitHub](https://github.com/posit-conf-2024/causal)
+* [Website](https://r-causal.github.io/causal_workshop_website/)
+* [Book](https://www.r-causal.org/)
+
+## Notes
+* Difference-in-differences Example: [https://evalf21.classes.andrewheiss.com/example/diff-in-diff/](https://evalf21.classes.andrewheiss.com/example/diff-in-diff/)
+
+* fitting a PS model:
+
+```{r}
+#| echo: true
+#| eval: false
+
+propensity_model <- glm(
+  park_extra_magic_morning ~ park_ticket_season + park_close + park_temperature_high,
+  data = seven_dwarfs,
+  family = binomial()
+)
+```
+
+* creating a matched dataset:
+
+```{r}
+#| echo: true
+#| eval: false
+
+library(MatchIt)
+matched_dwarfs <-  matchit(
+  park_extra_magic_morning ~ park_ticket_season + park_close + park_temperature_high,
+  data = seven_dwarfs,
+  link = "linear.logit",
+  caliper = 0.2
+)
+
+matched_df <- get_matches(matched_dwarfs)
+```
+
+* Effective sample size: [https://stats.stackexchange.com/a/612000](https://stats.stackexchange.com/a/612000)

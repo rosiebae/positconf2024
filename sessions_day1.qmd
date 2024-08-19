@@ -1,0 +1,465 @@
+---
+title: "Sessions (Day 1)"
+---
+
+:::{.callout-tip}
+
+## Session Info
+* Day 1 (08/13/2024)
+* [[GitHub](https://github.com/rstudio/rstudio-conf/blob/master/2024/README.md)]
+
+:::
+
+
+### Navigating A Career In Data Science
+
+*Tuesday, Aug 13 10:20 AM - 11:40 AM PDT*
+
+#### Beyond the Classroom: Unspoken Realities of a Data Science Career - Brandon Sucher
+
+* Expand your network
+* Find your niche
+* Advocate for yourself
+
+#### GitHub: How To Tell Your Professional Story - Abigail Haddad
+
+* GitHub can demonstrate your problem solving approach
+  + The code tells that story
+* How you communicate and solve a problem (e.g., README)
+  + Displaying broader set of tools (starting with Git)
+* GitHub is the industry-standard, free, and creating a lasting portfolio that is likely to get looked at at some point
+* Approach coding from the view that somebody else might be looking at it (putting stuff on GitHub from the beginning might help you do this)
+* What to put on GitHub? Personal projects that show what you can do
+  + Skill: What skill am I either trying to get or show that I have?
+    + Look at the skills that the jobs you want to have are looking for
+  + Interest: Pick things that interest you
+  + Scope: Pick the smallest possible project that conveys what you're trying to show (trying to show something from start to finish)
+    + Scope it narrowly and build if you want to
+  + Put them on your resume
+* Good development practices
+  + Easy to run
+  + Easy to build on
+  + Understandable
+* Repo essentials
+  + Modular (sections, not repeating yourself, functions)
+  + All work in code (from start to finish)
+  + Organized
+  + Documented (README file)
+  + Makes sense (viewer is able to understand why you built what you did for the problem that you're trying to solve)
+* What they see first (check your GitHub page to make sure)
+  + Pinned repos (pinning repos that you want seen & hiding repos you don't want seen)
+    + 1 repo or up to 6
+    + repos that do the best job that communicate the skills you're trying to highlight
+  + Recent commits
+* Update your work
+  + Think about what story you're telling to tell; make sure it's a good representation of what you're doing
+
+
+
+### Introducing Positron, a new data science IDE
+
+*Tuesday, Aug 13 10:20 AM - 11:40 AM PDT*
+
+Positron discussions: [https://github.com/posit-dev/positron/discussions](https://github.com/posit-dev/positron/discussions)
+
+#### Introducing Positron - Julia Silge
+
+[Sildes](https://speakerdeck.com/juliasilge/introducing-positron)
+
+* [Positron](https://github.com/posit-dev/positron)
+  + Next generation data science IDE
+  + Multilingual/polyglot IDE (R & Python support currently)
+  + Built on VS Code
+
+#### Exploratory Data Analysis with Python in Positron - Isabel Zimmerman
+
+* Viewer pane
+* Connections pane
+* Help pane
+* Plots pane
+
+#### Debugging Data with the Positron Data Explorer - Tom Mock
+
+* A next-gen data explorer
+  + Data viewer grid
+  + Summary panel (summary statistics appropriate for data; measures of central tendencies for numeric data or unique values for categorical data, missing data, etc.)
+  + Filter bar
+* Grid design
+  + Polyglot tool for in-memory dataframes
+  + Highly scalable
+  + Grid sort and multi-sort
+  + Automatic column width
+  + Monospaced fonts in the data grid
+* Filter design (outside of data viewer)
+  + Dedicated filter bar
+  + Quick add filter
+  + Special filters by type
+* Summary panel design
+  + Type and name
+  + Missing data percentage
+  + Summary statistics
+
+#### Architecture and Design of Positron - Jonathan McPherson
+
+* Positron is a polyglot IDE focused on data science.
+* It's a Code OSS fork, like Visual Studio Code is.
+* Positron's language features exist in extensions.
+* The language features use existing standards, like the Jupyter Protocol and the Language Server Protocol.
+* Positron has a public API that lets anyone add new languages or features.
+  + The way Positron is built allows Positron to be extended to other languages in the future (foundation upon more data science to be built)
+
+
+
+### Beautiful And Effective Tables
+
+*Tuesday, Aug 13 1:00 PM - 2:20 PM PDT*
+
+#### Adequate Tables? No, We Want Great Tables - Richard Iannone
+
+* [`gt` R package](https://gt.rstudio.com/)
+* Initial goals
+  + Comprehensive table structuring
+  + Large selection of functions for formatting values (29 formatters that cover a ton of formatting tasks)
+  + Flexible and easy-to-use methods for table styling
+    + 3 methods
+      + `tab_style()`
+      + `tab_options()`
+      + `opt_stylize()`
+  + Table rendering to multiple output types
+    + table data -> gt object -> output table
+    + You shouldn't have to change the table code depending on the output type
+      + Three output types were targeted: HTML, LaTeX, RTF
+        + LaTeX and RTF outputs underwent improvements over several improvements
+        + HTML changes: speed and accessibility
+        + .docx/Word output type was implemented (currently improving)
+        + Looking to adding Excel and PowerPoint output
+* Later goals
+  + Useful across many disciplines and use cases
+    + Added formatters both general and domain-specific
+  + Localization options for users all over the world
+    + Most formatting options have a `locale` option that ensures that numbers, dates/times, and even words fit the language and region
+  + Good documentation to get you building quickly
+  + Useful for Pharma's specific table-making needs
+* The future of gt
+  + Row ordering functionality - so you don't have to order rows beforehand
+  + Improvements to footnotes - flexibility for affixing the marks
+  + Excel output tables - it's a popular file format
+  + Overall better table-splitting - better options, more dependable
+  + Integration with database tables - so it can be used as input data
+  + Ways to better style text - e.g., styling spans of text in a cell
+  + Methods for merging cells - right now: no way to merge adjacent cells
+* [Great Tables Python package](https://posit-dev.github.io/great-tables/articles/intro.html)
+  + Important features are there, secondary features coming later
+  + [Python version examples](https://posit-dev.github.io/great-tables/examples/)
+* [reactable](https://glin.github.io/reactable/) Package available in R and Python (newly released) - interactive data tables
+* Questions
+  + HTML tables are translated to typst
+
+#### Context is King - Shannon Pileggi
+
+* Data stewardship: How do we insure data integrity?
+* Source data context can and should be embedded in your data
+  + Using variable labels (like in sas/SPSS/Stata)
+  + `haven` R package allows use to import sas/SPSS/Stata data files and retain variable labels
+* Assigning variable labels
+  + `labelled::set_variable_labels()` or using base R
+    + [`labelled` R package](https://cran.r-project.org/web/packages/labelled/index.html)
+* [Blog post: The case for variable labels in R](https://www.pipinghotdata.com/posts/2022-09-13-the-case-for-variable-labels-in-r/)
+* Applications
+  + Data dictionary
+  + Figures, labelled
+    + `ggeasy::easy_labs()` to automatically substitute variable labels into ggplots
+  + Tabling, labelled
+    + `gtsummary::tbl_summary()` will use your variable label instead of variable name in output (gt has same behavior)
+
+```{r}
+#| echo: true
+#| eval: false
+
+flights_schema <- tibble::list(
+  airlines_labelled,
+  airports_labelled,
+  flights_labelled,
+  planes_labelled,
+  weathers_labelled
+)
+
+# Creating a data dictionary
+flights_dictionary <- flights_schema |>
+  map(labelled::generate_dictionary) |>
+  enframe() |>
+  unnest(cols = value)
+```
+
+* In practice
+  + 1. Maintain a csv with metadata
+  + 2. Apply custom function for bulk label assignment (e.g., `croquett::set_derived_variable_labels()`); in an iterative framework if you have many lists
+
+#### gtsummary: Streamlining Summary Tables for Research and Regulatory Submissions - Daniel Sjoberg
+
+* [`gtsummary` R package](https://www.danieldsjoberg.com/gtsummary/)
+
+```{r}
+#| echo: true
+#| eval: false
+
+# Simple, customizable code
+trial |>
+  tbl_summary(
+    by = trt, # group by treatment (Drug A vs. Drug B)
+    include = c(age, grade, response), # by characteristics
+    statistic = all_continuous() ~ "{mean} ({sd})" # instead of default median
+  )
+
+trial |>
+  tbl_summary(
+    by = trt, # group by treatment (Drug A vs. Drug B)
+    include = c(marker, response), # by characteristics
+    missing = "no",
+    statistic = list(marker = "{mean} ({sd})", response = "{p}%")
+  ) |>
+  add_difference()
+
+# Regression model summaries
+mod <- glm(response ~ trt + marker, trial, family = binomial)
+summary(mod)
+
+tbl_mod <- tbl_regression(mod, exponentiate = TRUE)
+
+# Table cobbling (stacking tables)
+list(tbl_uni, tbl_mod) |>
+  tbl_merge(tab_spanner = c("**Univariable**", "**Multivariable**"))
+```
+
+
+
+### Lightning Talks
+
+*Tuesday, Aug 13 1:00 PM - 2:20 PM PDT*
+
+#### Templated Analyses within R Packages for Collaborative, Reproducible Research
+
+* Our approach: Using package architecture and templates
+  + Set up a simple package
+  + The package handles the research code and project management tools
+  + Junior members run `devtools::load_all()` to access everything
+* See it in action: [https://alarm-redist.org/fifty-states/](https://alarm-redist.org/fifty-states/)
+
+#### Why’d you load that package for?
+
+* You should include code comments to explain why you're loading the packages
+* [`annotate` R package](https://annotater.liomys.mx/) as a solution to add information to library load calls through functions or add ins
+  + Automate informative comments by
+    + Leveraging built-in descriptions
+    + Checking code for package components being used
+
+#### DataPages for interactive data sharing using Quarto
+
+* [datapages.github.io](https://datapages.github.io/): Tools and templates for rich data sharing
+  + Create a website for your data (interactive visualizations, documentations, data preview, etc.)
+
+
+
+### Automated Reporting With Quarto: Beyond Copy And Paste
+
+*Tuesday, Aug 13 2:40 PM - 4:00 PM PDT*
+
+#### Beyond Dashboards: Dynamic Data Storytelling with Python, R, and Quarto Emails - Sean Nguyen
+
+* Remove friction
+  + Logging in can create barriers
+  + Meet executives whre they are (e.g., Slack, Gmail, Outlook)
+  + "No-Click" Insights
+    + Add key metrics/alerts in the subject line or notification
+* Dynamic emails: Insights in your Inbox
+  + Concise, personalized content
+  + Automated with Python, R, Quarto
+  + Powered by Posit Connect
+* Personalize the delivery
+  + When: Send email only when needed
+  + So What: Deliver insights to deliver action
+* Tools: Quarto Emails, Pins, Posit Connect
+  + Streamline your data with Pins
+    + Data Sources -> Data Warehouse -> create_pins.qmd
+      + save modeled data (.csv files) as a pin
+* Steps for dynamic emails in Quarto
+  1. Setup YAML (`format: email`)
+  2. Run Code (R/Python code that you will normally run)
+  3. Email Logic (Establish logic to deliver email or not)
+  4. Email Content
+* Components
+  + 1. Parametrize your Quarto doc
+    + Create variables in the YAML (e.g., different variations for different depratments)
+    + Define your parameters
+    + Reference them with `params$`
+    + -> 1a: Generate multiple Quarto Docs with Purrr
+      + posit::2023 talk - [Parameterized Quarto reports improve understanding of soil health](https://jadeyryan.com/talks/2023-09-25_posit_parameterized-quarto/)
+  + 2. Run your code
+    + Can include plots, metrics, etc.
+  + 3. Conditional email logic
+    + Different .qmd files to house your emails to send
+    + Conditional logic
+      + Marketing Example: Send email when we have leads in Q3 2024
+  + 4. Quarto email content
+    + YAML (`format: email`)
+    + Body (`:::{.email}` div)
+    + Subject (`:::{.subject}` div nested within email div)
+    + Schedule logic
+      + Return something "truthly" or "falsly"
+    + Quarto V 1.4+
+
+* Example Email: Conditional Logic
+
+```{r}
+#| echo: true
+#| eval: false
+
+# Example conditional logic to send email
+num_leads <- nrow(leads_data)
+
+send_email_with_leads <- function(num_leads, system_date) {
+  system_date <- Sys.Date()
+  if (num_leads > 0 && system_date > ymd("2024-07-01")) {
+    return("yes")
+  } else {
+    return("no")
+  }
+}
+```
+
+![](images/quarto_email.png)
+
+* posit Connect
+  + Can control email recipients with groups
+  + Can schedule - can specify when it renders (email will only be sent if it meets your conditional logic step)
+* Considerations with Quarto emails
+  + Static visualizations
+  + Table constraints
+  + Limited interactivity
+* Quarto email tips
+  + Focus on key metrics
+  + Use dynamic subject lines
+  + Be selective with delivery criteria
+  + Think about "so what"
+
+#### Automated Reporting With Quarto: Beyond Copy and Paste - Orla Doyle
+
+* A pharmaceutical company (Novartis) created a package ({rdocx}) that generates reproducible word documents using R Markdown using a company template
+  + Mandatory elements are represented as R6 classes where each attribute has a unique input requirement that goes through a series of checks
+  + Embedded good software development practices
+
+#### Quarto: A Multifaceted Publishing Powerhouse for Medical Researchers - Joshua Cook
+
+* Quarto allows us to efficiency create various polished formats from a single source document (in this case, stored in the /Analysis folder)
+  + Never include all of your code in one Quarto markdown; use shortcodes instead to import analyses/figures, etc. so that you can output the same figure in multiple formats (e.g., PPT/PDF Manuscript, etc.)
+  + If an error is identified or something about the data, tables, or figures needs to be changed, simply altering the files in /Analysis will prompt all the documents to update when they are next rendered.
+* Quarto shortcodes: special markdown directives that generate content
+  + Key shortcodes:
+    + embed - embeds cells from Quarto markdown (.qmd) file or a Jupyter (.ipynb) notebook (`{{< embed Analysis/data_missing.qmd#fig-missing-1 >}} # will only include a SPECIFIC figure`)
+    + include - direct copy/paste of content from another Quarto markdown or Jupyter notebook (``{{< include Analysis/data.processing.qmd >}} # will include EVERYTHING from the file`)
+* Advanced features
+  + In-line programming
+  + Dynamically updating - using quarto.yml
+    + `execute: freeze: auto` to auto-update if any changes detected in the files
+  + Templates
+  + Collaboration tools available - notes, highlighting, commenting with Hypothesis
+  + Works with Zotero libraries
+
+
+
+### Is It Supposed To Hurt This Much?
+
+*Tuesday, Aug 13 2:40 PM - 4:00 PM PDT*
+
+#### "Please Let Me Merge Before I Start Crying": And Other Things I've Said at the Git Terminal - Meghan Harris
+
+* Git =/= GitHub
+  + Git: Version control system
+  + GitHub: Developer platform that uses Git software
+* Three ways (R users) can interact with Git
+  + A CLI terminal
+  + R Studio GUI
+  + A Third Party Client (e.g., GitHub Desktop)
+* What is Git merge?
+  + Join two or more development histories (branches) together
+* What is a Git merge conflict?
+  + Content conflict: Competing changes are made to the same line of a file
+  + Structure conflict: When someone edits a file and someone else deletes the same file
+* Resolving Git merge conflicts
+  + Don't panic and abort merge
+    + Terminal: `git merge --abort`
+  + Assess the damage
+    + Terminal: `git status`
+  + Choose your own adventure - you are in control to choose what version you want
+* Merge conflicts are not Git problems, but are communication problems, workflow problems, knowledge gap problems
+  + Communication
+    + Talking with others
+    + Naming/styling conventions
+    + Consistent formatting
+    + Leverage developer platforms
+      + "Pull request templates"
+      + "Labels"
+      + "Issues"
+      + "Pull Request Comments"
+      + "Branch Rules and Protection"
+  + Workflow
+    + Before you code:
+      + Check Git environment
+      + Check branch status and "drift"
+      + ALWAYS pull first before touching ANYTHING
+    + During your coding:
+      + Commit often (with repeated amends)
+      + Push thoughtfully but consider "branch drift" risk
+      + Use git stashes when there's "emergencies"
+    + After you code
+      + Leave nothing behind
+      + You are reviewer #1
+
+#### Easing the pain of connecting to databases - Edgar Ruiz
+
+* Improvements to the [`odbc` R package](https://cran.r-project.org/web/packages/odbc/index.html)
+  + Connecting to Databricks/Snowflakes becomes simpler 
+    + `odbc::databricks()`
+    + `odbc::snowflake()`
+  + Flexible ways to authenticate
+    + Use browser-based SSO (currently in the development version; only for desktops)
+    + Use a traditional username & PW
+* DB Connection Pane in Positron
+
+#### Auth is the product, making data access simple with Posit Workbench - Aaron Jacobs
+
+* Posit Public Package Manager (P3M)
+  + A free, hosted service based on our professional Posit Package Manager
+  + Provides everything in a complete CRAN mirror, plus many additional features
+  + Used widely in the R community since 2020, with over 40 million package installs each month
+  + Designed to address common pain points in using public mirrors
+* Package pain: My code used to work, but now it doesn't
+  + Why does this happen?
+    + New versions may have changes that break old code
+    + Dependent packages may be out-of-date
+      + CRAN only guarantees package compatibility at any given "latest" point in time
+    + Packages are no longer available
+  + How P3M helps
+    + Posit takes daily snapshots of CRAN, PyPI, and Bioconductor
+    + Users can configure R to install packages from a specific date, ensuring all packages installed from that snapshot are compatible with each other
+  + How can I use snapshots?
+    + Recreate the package environment for an old project easily by knowing when the project was originally written
+    + Future-proof your work by tying it to today's snapshot when sharing with others or reproducing it later
+* Package pain: Installing packages is really slow
+  + Why does this happen?
+    + Installing packages from source is slow
+      + Any C, C++, or Fortran code needs to be compiled
+      + Many packages require additional libraries and build tools
+    + Binary packages reduce installation time by pre-building the package
+    + CRAN only provides binary packages for Windows and macOS on the current and previous version of R
+  + How P3M helps
+    + Pre-built binary packages for all of CRAN
+      + On the current plus 5 previous R versions
+      + For Windows, macOS, and 12 Linux distributions
+    + Also ideal for cloud compute and containerized environments where package installation is repetitive and automated
+  + Package binary builds
+* [p3m.dev](https://p3m.dev/client/#/)
+* Using P3M as your CRAN repository
+  + `options("repos)` in R
+  + RStudio -> Global Options -> Packages
+  + Get detailed instructions specifically for your R environment on the Public Package Manager Setup page

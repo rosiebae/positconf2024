@@ -1,0 +1,19 @@
+---
+title: "What They Forgot To Teach You About R"
+format: html
+---
+
+This one day What They Forgot (WTF) To Teach You About R workshop is for experienced R and RStudio users who want to better understand R execution via debugging and personal R administration. At the conclusion of the workshop you will have distinct strategies for debugging your own code versus someone else’s code, as well as strategies for maintaining your R installation through the lens of reproducibility.
+
+This course is for you if you:
+
+* Have been using R for a while and you want a deeper understanding of what code is executing when and where it is coming from.
+* Want strategies for overcoming roadblocks when all else has failed in function execution or package installation.
+* Are willing to get into the weeds of your R installation, project organization, error messages, and source code.
+
+## Course Links
+* [GitHub](https://github.com/posit-conf-2024/wtf)
+
+## Notes
+* GitHub and GitLab Command Line Interfaces (CLIs) – Solutions: [https://solutions.posit.co/operations/git-cli/index.html#gh-for-github](https://solutions.posit.co/operations/git-cli/index.html#gh-for-github)
+* git-credential-oauth: [https://github.com/hickford/git-credential-oauth](https://github.com/hickford/git-credential-oauth)

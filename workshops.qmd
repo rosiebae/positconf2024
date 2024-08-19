@@ -1,0 +1,12 @@
+---
+title: "Workshops"
+metadata-files: 
+  - workshops/_listing.yml
+---
+
+## Material
+
+[[GitHub](https://github.com/posit-conf-2024)]
+
+::: {#workshop-listing}
+:::

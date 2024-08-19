@@ -1,0 +1,10 @@
+listing:
+    id: workshop-listing
+    contents: workshops
+    type: table
+    sort-ui: false
+    categories: false
+    field-display-names: 
+      title: Workshop
+    fields: [title]
+    

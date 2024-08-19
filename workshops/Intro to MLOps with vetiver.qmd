@@ -1,0 +1,19 @@
+---
+title: "Intro to MLOps with vetiver"
+format: html
+---
+
+Data scientists understand what goes into training a machine learning or statistical model, but bringing that model into a production environment can be daunting.
+
+This workshop will cover the fundamentals of MLOps (machine learning operations), the practices used to create a MLOps strategy, and what kinds of tasks and components are involved. We’ll use vetiver, a framework for MLOps tasks in Python and R, to version, deploy, and monitor the models you have trained and want to deploy and maintain in production reliably and efficiently.
+
+We expect participants to have exposure to basic modeling and machine learning practice, but NOT expert familiarity with advanced ML or MLOps topics.
+
+This workshop is for you if you:
+
+* have intermediate R or Python knowledge (this will be a “choose your own adventure” workshop where you can work through the exercises in either R or Python),
+* can read data from CSV and other flat files, transform and reshape data, and make a wide variety of graphs, and
+* can fit a model to data with your modeling framework of choice.
+
+## Course Links
+* [GitHub](https://github.com/posit-conf-2024/vetiver)

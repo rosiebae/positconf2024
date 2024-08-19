@@ -20,19 +20,24 @@ website:
       - href: keynotes.qmd
         text: Keynotes
         icon: bi-person
-      - href: sessions.qmd
-        text: Sessions
+      - text: Sessions
         icon: bi-chat-dots
+        menu:
+          - sessions_day1.qmd
+          - sessions_day2.qmd
+      - href: recap.qmd
+        text: Recap
+        icon: bi-bookmark
 
 format:
   html:
-    theme:  # flatly, zephyr, journal
-      light: [journal, styles.css]
-      dark: [darkly, styles.css]
+    theme:
+      light: [journal, styles.scss]
+      dark: [darkly, styles.scss]
     toc: true
     from: markdown+emoji
     number-sections: true
-    number-depth: 1
+    number-depth: 2
     embed-resources: true
     other-links:
       - text: posit::conf(2024) webpage

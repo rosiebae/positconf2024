@@ -1,0 +1,17 @@
+---
+title: "From R User to R Programmer"
+format: html
+---
+
+This is a one-day, hands-on workshop for intermediate R users who use the tidyverse and want to improve and reduce the amount of duplication in their code. You will learn the two main ways to reduce duplication: creating functions and using iteration.
+
+We will use a tidyverse approach to cover function design and iteration. When writing a function you will learn how to deal with “data masking”, give default values to arguments, give unspecified arguments, and what side effects are and how to manage them. In the afternoon, you will learn how to iterate across the columns of a dataframe using across(), what “anonymous” functions are and how to read and write multiple files using purrr.
+
+This course is for you if you:
+
+* have experience equivalent to an introductory data science course using tidyverse
+* feel comfortable with the Whole game part of R for Data Science
+* want to learn how to write functions and use iteration to reduce duplication in your code
+
+## Course Links
+* [GitHub](https://github.com/posit-conf-2024/programming-r-exercises)

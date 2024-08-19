@@ -1,9 +1,17 @@
 ---
-title: "posit::conf(2024)"
+title: "posit::conf(2024) notes"
 ---
 
-![](images/posit_conf_2024.jfif)
+![](images/posit-conf-2024-hexwall1.png)
 
-## Session Videos
+<br>
 
-* [:arrow_forward: Session Videos](https://www.youtube.com/@PositPBC) **Will Become Available October/November 2024**
+[:arrow_forward: Session Videos](https://www.youtube.com/@PositPBC) **Will Become Available October/November 2024**
+
+<br>
+
+
+:::{.callout-tip}
+## Recap
+A warning
+:::

@@ -1,0 +1,23 @@
+---
+title: "Introduction to Quarto"
+format: html
+---
+
+This workshop will prepare you to author a rich array of documents in Quarto, the next generation of R Markdown. Quarto is an open-source scientific and technical publishing system that offers multilingual programming language support to create dynamic and static documents, books, presentations, blogs, and other online resources.
+
+The focus for this workshop will be on single documents. You will learn to create static documents, to add interactivity to them with Shiny and htmlwidgets, or steer them in the direction of sophisticated scientific documents. In the afternoon you’ll take the same authoring approaches to create slide presentations in various formats such as reveal.js, beamer, and pptx.
+
+
+This course is for you if you:
+
+* have a basic knowledge of how to use the RStudio IDE,
+* have some familiarity with markdown, or
+* are excited to author flexible single documents like technical reports and slide presentations.
+
+Seasoned users of R Markdown will get more out of the Build-a-Dashboard Workshop (with Quarto, R and/or Python) or Quarto Websites workshops, which are focused on specific output types.
+
+## Course Links
+* [GitHub](https://posit-conf-2024.github.io/quarto-intro/)
+
+## Notes
+* [How to build business reports with Quarto](https://www.youtube.com/watch?v=Hl9TvhlzfV4&list=PL9HYL-VRX0oRsUB5AgNMQuKuHPpNDLBVt&index=1)

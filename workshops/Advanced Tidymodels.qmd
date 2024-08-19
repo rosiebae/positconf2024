@@ -1,0 +1,19 @@
+---
+title: "Advanced Tidymodels"
+format: html
+---
+
+In this workshop you will learn more about model optimization using the tune and finetune packages, including racing and iterative methods. You’ll be able to do more sophisticated feature engineering with recipes. Time permitting, model ensembles via stacking will be introduced.
+
+This course is focused on the analysis of tabular data and does not include deep learning methods.
+
+This workshop is for you if you:
+
+* have used tidymodels packages like recipes, rsample, and parsnip.
+* are comfortable with tidyverse syntax (e.g. piping, mutates, pivoting), and
+* have some experience with resampling and modeling (e.g., linear regression, random forests, etc.), but we don’t expect you to be an expert in these.
+
+Participants who are new to tidymodels will benefit from taking the Introduction to tidymodels workshop before joining this one.
+
+## Course Links
+* [Tidy Modeling with R Book](https://www.tmwr.org/)

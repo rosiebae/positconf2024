@@ -1,0 +1,24 @@
+---
+title: "Databases with R"
+format: html
+---
+
+As a data professional, you likely have to deal with databases that are larger than your available RAM. Downloading the data requires patience, applying traditional workflows is frustrating. This workshop will teach you to work with your (large) data:
+
+* if it resides in a traditional database, effortlessly
+* from local storage, using DuckDB, a modern database engine tailored to data analysis
+
+The workshop will introduce basic database concepts and move on with practical work with traditional databases and DuckDB. You are encouraged to bring your own data(base) to immediately apply what you have learned during the workshop. Among others, the workshop showcases the DBI, dbplyr, duckdb, duckplyr, and dm packages.
+
+This course is for you if you:
+
+* have worked with the dplyr package
+* have just read or heard about databases and are ready to get your hands dirty
+* performed basic operations on a database, and you would like to deepen your knowledge
+* have heard about DuckDB and want to know what makes it unique and how to leverage it in your daily workflow
+
+## Course Links
+* [GitHub](https://github.com/posit-conf-2024/databases/)
+
+## Notes
+* Regular Expressions Reference: Basic Features: [https://www.regular-expressions.info/refbasic.html](https://www.regular-expressions.info/refbasic.html)

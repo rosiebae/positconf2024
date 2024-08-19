@@ -1,0 +1,28 @@
+---
+title: "Introduction to Shiny for Python"
+format: html
+---
+
+Shiny for Python is a new framework for building performant, beautiful web applications in Python. In this one-day workshop, you will learn the basic building blocks of a Shiny application which will let you create both quick, simple applications and elaborate mission-critical ones.
+
+In particular this workshop covers:
+
+* The basics of building a Shiny for Python app
+* When to use reactive calculations and reactive effects
+* How modules can help you develop reusable components
+* Theming and deploying your application
+
+At the end of this course you will be able to:
+
+* Build a Shiny app in Python
+* Articulate how Shiny differs from other frameworks
+* Utilize best practices to make sure your app is robust and scalable
+
+This course is for you if you are:
+
+* A Python programmer interested in quickly building efficient web applications
+* An educator interested in integration Shiny apps into your python course
+* An R programmer interested in building Shiny apps in Python
+
+## Course Links
+* [GitHub](https://posit-conf-2024.github.io/intro-to-shiny-for-python/)

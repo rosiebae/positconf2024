@@ -1,0 +1,32 @@
+---
+title: "Package Development: The Rest of the Owl*"
+format: html
+---
+
+In R, the fundamental unit of reusable and shareable code is a package, containing helpful functions, documentation, and sometimes sample data. Putting R code in a package is the best way to share our code with others or to share code across different projects. This workshop assumes you've already dipped your toe in package development, i.e. that you've managed to create a basic package and pass R CMD check. In terms of "How to draw an owl," you've definitely drawn some circles. But now it's time to draw the rest of the owl!
+
+You will learn workflows and skills that are (a) very important for package development and (b) very different from writing R scripts. We will lean heavily on the tools and principles used by the tidyverse team, embodied in the devtools family of packages, including usethis, testthat, and roxygen2.
+
+The exact topics won't be finalized until closer to conf, but they are likely to be drawn from this list:
+
+* Fundamental daily workflows: devtools::load_all() and check()
+* Documentation: function documentation, vignettes, and website
+* Dependencies and namespaces: how to use other packages in yours and how to distinguish the parts of your package that are internal vs. external
+* Testing: the testthat package and the philosophy of writing tests as you go (vs. “later”)
+* Debugging: beyond print statements
+* Data: internal data vs. data available to your user
+
+It is likely we will reserve a chunk of time late in the day for you to apply something you’ve learned to your own package(s). This is a good chance to talk things through with members of the tidyverse team. This will be an interactive 1-day workshop, and we will be using the RStudio IDE to work through the materials.
+
+This course is for you if you:
+
+* Are very comfortable writing R scripts and functions.
+* Have already created a basic package, e.g., you’ve successfully worked through The Whole Game chapter from R Packages or have equivalent experience.
+* Have concrete plans for one or more specific packages you want to create. You might have even started implementing these plans.
+* Are interested in using devtools/RStudio for package development.
+* Are at least curious about Git/GitHub. We won’t have time to teach this explicitly, but you will certainly see Git/GitHub through out the day.
+
+## Course Links
+
+* [GitHub](https://github.com/posit-conf-2024/pkg-dev)
+* [R Packages (2e) Book](https://r-pkgs.org/)

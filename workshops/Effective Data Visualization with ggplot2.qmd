@@ -1,0 +1,19 @@
+---
+title: "Effective Data Visualization with ggplot2"
+format: html
+---
+
+The R programming language provides powerful primitives for data visualization. In particular, for many data scientists the package ggplot2 is the go-to toolkit for making visualizations. Through its modular and extensible design, ggplot2 has mushroomed into a formidable ecosystem, and with the aid of third-party extension packages there is little in terms of data visualization that cannot be done with ggplot2 these days. However, harnessing this flexibility and power can present a steep learning curve. While most users can quickly throw together a scatter plot or histogram, turning the initial figure draft into a carefully designed, publication-ready visualization requires a much deeper understanding of how ggplot2 functions.
+
+This workshop has two complementary goals. First, you will learn useful tips and tricks for ggplot2 that will help you make plots that look stylish, unique, and exactly the way you want them to. This will include strategies for layering geoms, customizing coordinate systems and scales, tweaking the plot theme and other aspects of the plot appearance, and creating annotations. Second, you will learn some fundamental principles of figure design. These will include principles for choosing color palettes and for designing for color-vision deficiency, as well as some general principles of communication and design for accessibility.
+
+This course is for you if you:
+
+* have some prior experience with ggplot2 and the tidyverse
+* want to learn how to tweak and fine-tune plot designs in ggplot2
+* want to learn more about how to choose colors and how to design for accessibility
+
+## Course Links
+* [Website](https://wilkelab.org/dataviz_shortcourse/materials/positconf2024.html)
+* [Fundamentals of Data Visualization Book](https://clauswilke.com/dataviz/)
+* [SDS 375 | Data Visualization in R U Texas Course](https://wilkelab.org/SDS375/)

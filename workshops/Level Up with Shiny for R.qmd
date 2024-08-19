@@ -1,0 +1,17 @@
+---
+title: "Level Up with Shiny for R"
+format: html
+---
+
+Shiny, a web framework for R and Python, lets you quickly create rich, data-driven web applications for yourself, your clients, your students, or your colleagues. This workshop will give you the skills you need to build complex applications with brilliant user interfaces. You’ll learn how to make the most of recent developments in the Shiny ecosystem, while mastering techniques for modularizing and structuring your applications for scalability and maintainability. Along the way, you’ll encounter new techniques to speed up your applications using caching and databases for a smooth user experience.
+
+This workshop is for you if:
+
+-   You can comfortably create a basic Shiny for R application, but are ready to make apps that are a little more complicated
+-   You’ve made a Shiny application that has started to grow in terms of users or lines of code and you want to improve your user interface or your code structure to support your growing app
+-   You want to bring advanced Shiny tools like modules, caching, databases and testing into your app building workflows
+-   You have (or want to put) a Shiny app into production. You also know that in production means that someone depends on the app and that that someone could even be you, a small handful of your colleagues, or an entire division of your organization.
+
+## Course Links
+
+-   [GitHub](https://posit-conf-2024.github.io/level-up-shiny/)
