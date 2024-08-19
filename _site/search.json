@@ -1,0 +1,436 @@
+[
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "[GitHub]\n\n\n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\n\n\n\n\nAdvanced Tidymodels\n\n\n\n\nBig Data in R with Arrow\n\n\n\n\nBuild-a-Dashboard Workshop (with Quarto, R and/or Python)*\n\n\n\n\nCausal Inference in R*\n\n\n\n\nData Science Workflows with Posit Tools - Python Focus\n\n\n\n\nData Science Workflows with Posit Tools - R Focus\n\n\n\n\nDatabases with R\n\n\n\n\nDevOps for Data Scientists\n\n\n\n\nEffective Data Visualization with ggplot2\n\n\n\n\nFlavors of the Pharmaverse\n\n\n\n\nFrom R User to R Programmer\n\n\n\n\nIntro to MLOps with vetiver\n\n\n\n\nIntroduction to Machine Learning in Python with Scikit-learn\n\n\n\n\nIntroduction to Quarto\n\n\n\n\nIntroduction to Shiny for Python\n\n\n\n\nIntroduction to Shiny for R\n\n\n\n\nIntroduction to tidymodels*\n\n\n\n\nLevel Up with Shiny for R\n\n\n\n\nMaking Tables with gt and Great Tables*\n\n\n\n\nPackage Development: The Rest of the Owl*\n\n\n\n\nPosit Academy: Introduction to Data Science with R*\n\n\n\n\nQuarto Websites*\n\n\n\n\nR in Production\n\n\n\n\nUsing Databricks with R\n\n\n\n\nWhat They Forgot To Teach You About R\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "workshops.html#material",
+    "href": "workshops.html#material",
+    "title": "Workshops",
+    "section": "",
+    "text": "[GitHub]\n\n\n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\n\n\n\n\nAdvanced Tidymodels\n\n\n\n\nBig Data in R with Arrow\n\n\n\n\nBuild-a-Dashboard Workshop (with Quarto, R and/or Python)*\n\n\n\n\nCausal Inference in R*\n\n\n\n\nData Science Workflows with Posit Tools - Python Focus\n\n\n\n\nData Science Workflows with Posit Tools - R Focus\n\n\n\n\nDatabases with R\n\n\n\n\nDevOps for Data Scientists\n\n\n\n\nEffective Data Visualization with ggplot2\n\n\n\n\nFlavors of the Pharmaverse\n\n\n\n\nFrom R User to R Programmer\n\n\n\n\nIntro to MLOps with vetiver\n\n\n\n\nIntroduction to Machine Learning in Python with Scikit-learn\n\n\n\n\nIntroduction to Quarto\n\n\n\n\nIntroduction to Shiny for Python\n\n\n\n\nIntroduction to Shiny for R\n\n\n\n\nIntroduction to tidymodels*\n\n\n\n\nLevel Up with Shiny for R\n\n\n\n\nMaking Tables with gt and Great Tables*\n\n\n\n\nPackage Development: The Rest of the Owl*\n\n\n\n\nPosit Academy: Introduction to Data Science with R*\n\n\n\n\nQuarto Websites*\n\n\n\n\nR in Production\n\n\n\n\nUsing Databricks with R\n\n\n\n\nWhat They Forgot To Teach You About R\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "workshops/Using Databricks with R.html",
+    "href": "workshops/Using Databricks with R.html",
+    "title": "Using Databricks with R",
+    "section": "",
+    "text": "As most organization’s data migrate to the cloud, the ability to analyze data in-place becomes more important. This workshop will walk you through how to think about remote data, how to access it, and how to analyze it efficiently. We will review the latest in integrations between R and Databricks. The two integrations that we will review are:\nDuring the workshop, we will discuss best practices for when to use which integration, as well as techniques to take your analysis into production.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Using Databricks with R.html#course-links",
+    "href": "workshops/Using Databricks with R.html#course-links",
+    "title": "Using Databricks with R",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Quarto Websites.html",
+    "href": "workshops/Quarto Websites.html",
+    "title": "Quarto Websites*",
+    "section": "",
+    "text": "Do you need a professional website to showcase your work? Or have you got an idea for a website at work, but it needs to reflect your organization’s brand? If you’ve used Quarto to produce a document, you’ve already got the technical skills to create a Quarto website. In this workshop, you’ll learn everything else you need to build a website and customize its appearance.\nYou’ll get a running start by using a template we’ve designed to be functional and attractive, but also act as a guide for your learning. Then you’ll:\nBy the end of the workshop you’ll have built and published (if you want) a personal website, but the same tools and techniques will apply to any kind of website you might like to build.\nWe’ll assume you’ve used Quarto to produce documents, but we won’t assume you have any HTML, CSS/SCSS or Git/GitHub experience, nor will we assume any particular programming language (R, Python etc.) or level of programming experience.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Quarto Websites.html#course-links",
+    "href": "workshops/Quarto Websites.html#course-links",
+    "title": "Quarto Websites*",
+    "section": "Course Links",
+    "text": "Course Links\n\nWebsite"
+  },
+  {
+    "objectID": "workshops/Quarto Websites.html#notes",
+    "href": "workshops/Quarto Websites.html#notes",
+    "title": "Quarto Websites*",
+    "section": "Notes",
+    "text": "Notes\n\ngallery on quarto.org: https://quarto.org/docs/gallery/#websites\nmacOS color finder: https://colorslurp.com/"
+  },
+  {
+    "objectID": "workshops/Package Development The Rest of the Owl.html",
+    "href": "workshops/Package Development The Rest of the Owl.html",
+    "title": "Package Development: The Rest of the Owl*",
+    "section": "",
+    "text": "In R, the fundamental unit of reusable and shareable code is a package, containing helpful functions, documentation, and sometimes sample data. Putting R code in a package is the best way to share our code with others or to share code across different projects. This workshop assumes you’ve already dipped your toe in package development, i.e. that you’ve managed to create a basic package and pass R CMD check. In terms of “How to draw an owl,” you’ve definitely drawn some circles. But now it’s time to draw the rest of the owl!\nYou will learn workflows and skills that are (a) very important for package development and (b) very different from writing R scripts. We will lean heavily on the tools and principles used by the tidyverse team, embodied in the devtools family of packages, including usethis, testthat, and roxygen2.\nThe exact topics won’t be finalized until closer to conf, but they are likely to be drawn from this list:\nIt is likely we will reserve a chunk of time late in the day for you to apply something you’ve learned to your own package(s). This is a good chance to talk things through with members of the tidyverse team. This will be an interactive 1-day workshop, and we will be using the RStudio IDE to work through the materials.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Package Development The Rest of the Owl.html#course-links",
+    "href": "workshops/Package Development The Rest of the Owl.html#course-links",
+    "title": "Package Development: The Rest of the Owl*",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub\nR Packages (2e) Book"
+  },
+  {
+    "objectID": "workshops/Level Up with Shiny for R.html",
+    "href": "workshops/Level Up with Shiny for R.html",
+    "title": "Level Up with Shiny for R",
+    "section": "",
+    "text": "Shiny, a web framework for R and Python, lets you quickly create rich, data-driven web applications for yourself, your clients, your students, or your colleagues. This workshop will give you the skills you need to build complex applications with brilliant user interfaces. You’ll learn how to make the most of recent developments in the Shiny ecosystem, while mastering techniques for modularizing and structuring your applications for scalability and maintainability. Along the way, you’ll encounter new techniques to speed up your applications using caching and databases for a smooth user experience.\nThis workshop is for you if:"
+  },
+  {
+    "objectID": "workshops/Level Up with Shiny for R.html#course-links",
+    "href": "workshops/Level Up with Shiny for R.html#course-links",
+    "title": "Level Up with Shiny for R",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Introduction to Shiny for R.html",
+    "href": "workshops/Introduction to Shiny for R.html",
+    "title": "Introduction to Shiny for R",
+    "section": "",
+    "text": "Shiny is an R package that makes it easy to build interactive web apps straight from R. This workshop will start at the beginning: designing and creating user interfaces, learning and mastering the reactive model that connects your R code to the interface, and deploying apps publicly and privately. We will wrap up with some intermediate-level tools: debugging and modularizing your apps and implementing dynamic user interfaces. In the end, you’ll be a confident Shiny user, able to design interactive apps to achieve your purpose and produce a polished and professional implementation.\nThis workshop is for you if you:"
+  },
+  {
+    "objectID": "workshops/Introduction to Shiny for R.html#course-links",
+    "href": "workshops/Introduction to Shiny for R.html#course-links",
+    "title": "Introduction to Shiny for R",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Introduction to Shiny for R.html#notes",
+    "href": "workshops/Introduction to Shiny for R.html#notes",
+    "title": "Introduction to Shiny for R",
+    "section": "Notes",
+    "text": "Notes\n\nJoe Cheng | The Past and Future of Shiny | RStudio (2022): https://www.youtube.com/watch?v=HpqLXB_TnpI"
+  },
+  {
+    "objectID": "workshops/Introduction to Quarto.html",
+    "href": "workshops/Introduction to Quarto.html",
+    "title": "Introduction to Quarto",
+    "section": "",
+    "text": "This workshop will prepare you to author a rich array of documents in Quarto, the next generation of R Markdown. Quarto is an open-source scientific and technical publishing system that offers multilingual programming language support to create dynamic and static documents, books, presentations, blogs, and other online resources.\nThe focus for this workshop will be on single documents. You will learn to create static documents, to add interactivity to them with Shiny and htmlwidgets, or steer them in the direction of sophisticated scientific documents. In the afternoon you’ll take the same authoring approaches to create slide presentations in various formats such as reveal.js, beamer, and pptx.\nThis course is for you if you:\nSeasoned users of R Markdown will get more out of the Build-a-Dashboard Workshop (with Quarto, R and/or Python) or Quarto Websites workshops, which are focused on specific output types."
+  },
+  {
+    "objectID": "workshops/Introduction to Quarto.html#course-links",
+    "href": "workshops/Introduction to Quarto.html#course-links",
+    "title": "Introduction to Quarto",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Introduction to Quarto.html#notes",
+    "href": "workshops/Introduction to Quarto.html#notes",
+    "title": "Introduction to Quarto",
+    "section": "Notes",
+    "text": "Notes\n\nHow to build business reports with Quarto"
+  },
+  {
+    "objectID": "workshops/Intro to MLOps with vetiver.html",
+    "href": "workshops/Intro to MLOps with vetiver.html",
+    "title": "Intro to MLOps with vetiver",
+    "section": "",
+    "text": "Data scientists understand what goes into training a machine learning or statistical model, but bringing that model into a production environment can be daunting.\nThis workshop will cover the fundamentals of MLOps (machine learning operations), the practices used to create a MLOps strategy, and what kinds of tasks and components are involved. We’ll use vetiver, a framework for MLOps tasks in Python and R, to version, deploy, and monitor the models you have trained and want to deploy and maintain in production reliably and efficiently.\nWe expect participants to have exposure to basic modeling and machine learning practice, but NOT expert familiarity with advanced ML or MLOps topics.\nThis workshop is for you if you:"
+  },
+  {
+    "objectID": "workshops/Intro to MLOps with vetiver.html#course-links",
+    "href": "workshops/Intro to MLOps with vetiver.html#course-links",
+    "title": "Intro to MLOps with vetiver",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Flavors of the Pharmaverse.html",
+    "href": "workshops/Flavors of the Pharmaverse.html",
+    "title": "Flavors of the Pharmaverse",
+    "section": "",
+    "text": "Over the past 4 years, the pharmaverse was created and has blossomed into a booming community of organizations and package developers aimed at supporting R development with focus on the clinical reporting pipeline. Even within a world as standardized as regulatory submissions, organizations still tend to have sometimes vastly different requirements within their own processes.\nIn this workshop, we’ll give a high level overview of the scope and tools available within the pharmaverse for the clinical pipeline, including tools for ADaM data set curation, creating Analysis Results Data Sets, and TLGs. To help attendees understand how there are different paradigms and pathways through the pharmaverse, we’ll take a tour through two to three different strategies available to support table, listing, and figure creation. Attendees of this workshop will walk away with an understanding of how the pharmaverse can help their organization and where they can look to learn more about the right tools to support their needs."
+  },
+  {
+    "objectID": "workshops/Flavors of the Pharmaverse.html#course-links",
+    "href": "workshops/Flavors of the Pharmaverse.html#course-links",
+    "title": "Flavors of the Pharmaverse",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/DevOps for Data Scientists.html",
+    "href": "workshops/DevOps for Data Scientists.html",
+    "title": "DevOps for Data Scientists",
+    "section": "",
+    "text": "In this course we will learn the key principles of DevOps and problems which it intends to solve for data scientists. We will discuss how DevOps practices such as CI/CD enhance collaboration, automation, and reproducibility. We will learn common workflows for environment management, package management, containerization, monitoring & logging, and version control. Participants will get hands-on experience with a variety of tools including Docker, Github Actions, and APIs. Posit Pro Products will also be used by participants to quickly create and deploy R or python code using DevOps pipelines.\nPlease note that this course is not prescriptive around DevOps tools which are constantly growing and changing. Given that, the exact tools that will be used in this course (e.g. Jenkins, Azure Devops, etc) are subject to change.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/DevOps for Data Scientists.html#course-links",
+    "href": "workshops/DevOps for Data Scientists.html#course-links",
+    "title": "DevOps for Data Scientists",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub\nExercises\nSlides"
+  },
+  {
+    "objectID": "workshops/Data Science Workflows with Posit Tools - R Focus.html",
+    "href": "workshops/Data Science Workflows with Posit Tools - R Focus.html",
+    "title": "Data Science Workflows with Posit Tools - R Focus",
+    "section": "",
+    "text": "In this R-focused workshop, we will discuss ways to improve your data science workflows! During the course, we will review packages for data validation, alerting, modeling, and more. We’ll use Posit’s open source and professional tools to string all the pieces together for an efficient workflow. We’ll discuss environments, managing deployed content, working with databases, and interoperability across data products.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Data Science Workflows with Posit Tools - R Focus.html#course-links",
+    "href": "workshops/Data Science Workflows with Posit Tools - R Focus.html#course-links",
+    "title": "Data Science Workflows with Posit Tools - R Focus",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Causal Inference in R.html",
+    "href": "workshops/Causal Inference in R.html",
+    "title": "Causal Inference in R*",
+    "section": "",
+    "text": "In this workshop, we’ll teach the essential elements of answering causal questions in R through causal diagrams, and causal modeling techniques such as propensity scores and inverse probability weighting.\nIn both data science and academic research, prediction modeling is often not enough; to answer many questions, we need to approach them causally. In this workshop, we’ll teach the essential elements of answering causal questions in R through causal diagrams, and causal modeling techniques such as propensity scores and inverse probability weighting. We’ll also show that by distinguishing predictive models from causal models, we can better take advantage of both tools. You’ll be able to use the tools you already know–the tidyverse, regression models, and more–to answer the questions that are important to your work.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Causal Inference in R.html#course-links",
+    "href": "workshops/Causal Inference in R.html#course-links",
+    "title": "Causal Inference in R*",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub\nWebsite\nBook"
+  },
+  {
+    "objectID": "workshops/Causal Inference in R.html#notes",
+    "href": "workshops/Causal Inference in R.html#notes",
+    "title": "Causal Inference in R*",
+    "section": "Notes",
+    "text": "Notes\n\nDifference-in-differences Example: https://evalf21.classes.andrewheiss.com/example/diff-in-diff/\nfitting a PS model:\n\n\npropensity_model &lt;- glm(\n  park_extra_magic_morning ~ park_ticket_season + park_close + park_temperature_high,\n  data = seven_dwarfs,\n  family = binomial()\n)\n\n\ncreating a matched dataset:\n\n\nlibrary(MatchIt)\nmatched_dwarfs &lt;-  matchit(\n  park_extra_magic_morning ~ park_ticket_season + park_close + park_temperature_high,\n  data = seven_dwarfs,\n  link = \"linear.logit\",\n  caliper = 0.2\n)\n\nmatched_df &lt;- get_matches(matched_dwarfs)\n\n\nEffective sample size: https://stats.stackexchange.com/a/612000"
+  },
+  {
+    "objectID": "workshops/Big Data in R with Arrow.html",
+    "href": "workshops/Big Data in R with Arrow.html",
+    "title": "Big Data in R with Arrow",
+    "section": "",
+    "text": "Data analysis pipelines with larger-than-memory data are becoming more and more commonplace. In this workshop you will be introduced to Apache Arrow, a multi-language toolbox for working with larger-than-memory tabular data, to create seamless “big” data analysis pipelines with R.\nThis workshop will focus on using the arrow R package—a mature R interface to Apache Arrow—to process larger-than-memory files and multi-file data sets with arrow using familiar dplyr syntax. You’ll learn to create and use the interoperable data file format Parquet for efficient data storage and access, with data stored both on disk and in the cloud, and also how to exercise fine control over data types to avoid common large data pipeline problems. Designed for new-to-arrow R users, this workshop will provide a foundation for using Arrow, giving you access to a powerful suite of tools for performant analysis of larger-than-memory tabular data in R.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Big Data in R with Arrow.html#course-links",
+    "href": "workshops/Big Data in R with Arrow.html#course-links",
+    "title": "Big Data in R with Arrow",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "sessions.html",
+    "href": "sessions.html",
+    "title": "Sessions",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#session-videos",
+    "href": "index.html#session-videos",
+    "title": "posit::conf(2024)",
+    "section": "Session Videos",
+    "text": "Session Videos\n\n▶️ Session Videos Will Become Available October/November 2024"
+  },
+  {
+    "objectID": "keynotes.html",
+    "href": "keynotes.html",
+    "title": "Keynotes",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "workshops/Advanced Tidymodels.html",
+    "href": "workshops/Advanced Tidymodels.html",
+    "title": "Advanced Tidymodels",
+    "section": "",
+    "text": "In this workshop you will learn more about model optimization using the tune and finetune packages, including racing and iterative methods. You’ll be able to do more sophisticated feature engineering with recipes. Time permitting, model ensembles via stacking will be introduced.\nThis course is focused on the analysis of tabular data and does not include deep learning methods.\nThis workshop is for you if you:\nParticipants who are new to tidymodels will benefit from taking the Introduction to tidymodels workshop before joining this one."
+  },
+  {
+    "objectID": "workshops/Advanced Tidymodels.html#course-links",
+    "href": "workshops/Advanced Tidymodels.html#course-links",
+    "title": "Advanced Tidymodels",
+    "section": "Course Links",
+    "text": "Course Links\n\nTidy Modeling with R Book"
+  },
+  {
+    "objectID": "workshops/Build-a-Dashboard Workshop (with Quarto, R, Python).html",
+    "href": "workshops/Build-a-Dashboard Workshop (with Quarto, R, Python).html",
+    "title": "Build-a-Dashboard Workshop (with Quarto, R and/or Python)*",
+    "section": "",
+    "text": "You already analyze and summarize your data in computational notebooks with R and/or Python. What’s next? You can share your insights or allow others to make their own conclusions in eye-catching dashboards and straight-forward to author, design, and deploy Quarto Dashboards, regardless of the language of your data processing, visualization, analysis, etc. With Quarto Dashboards, you can create elegant and production-ready dashboards using a variety of components, including static graphics (ggplot2, Matplotlib, Seaborn, etc.), interactive widgets (Plotly, Leaflet, Jupyter Widgets, htmlwidgets, etc.), tabular data, value boxes, text annotations, and more. Additionally, with intelligent resizing of components, your Quarto Dashboards look great on devices of all sizes. And importantly, you can author Quarto Dashboards without leaving the comfort of your “home” – in plain text markdown with any text editor (VS Code, RStudio, Neovim, etc.) or any notebook editor (JupyterLab, etc.).\nThis workshop will walk you through building an increasingly complex dashboard using various layout options and deploy them as static web pages (with no special server required) as well as with a Shiny Server on the backend for enhanced interactivity.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Build-a-Dashboard Workshop (with Quarto, R, Python).html#course-links",
+    "href": "workshops/Build-a-Dashboard Workshop (with Quarto, R, Python).html#course-links",
+    "title": "Build-a-Dashboard Workshop (with Quarto, R and/or Python)*",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub\nExample GitHub repo\nQuarto Guide"
+  },
+  {
+    "objectID": "workshops/Build-a-Dashboard Workshop (with Quarto, R, Python).html#notes",
+    "href": "workshops/Build-a-Dashboard Workshop (with Quarto, R, Python).html#notes",
+    "title": "Build-a-Dashboard Workshop (with Quarto, R and/or Python)*",
+    "section": "Notes",
+    "text": "Notes\n\ncss for bootswatch: https://github.com/thomaspark/bootswatch/tree/v5/dist\nParameterized Quarto Reports Improve Understanding of Soil Health - posit::conf(2023): https://www.youtube.com/watch?v=lbE5uOqfT70"
+  },
+  {
+    "objectID": "workshops/Data Science Workflows with Posit Tools - Python Focus.html",
+    "href": "workshops/Data Science Workflows with Posit Tools - Python Focus.html",
+    "title": "Data Science Workflows with Posit Tools - Python Focus",
+    "section": "",
+    "text": "This Python-focused workshop will discuss ways to improve your data science workflows! During the course, we will review packages for data validation, alerting, modelling, and more. We’ll use Posit’s open-source and professional tools to string all the pieces together for an efficient workflow. We’ll discuss environments, managing deployed content, working with databases, and interoperability across data products.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Data Science Workflows with Posit Tools - Python Focus.html#course-links",
+    "href": "workshops/Data Science Workflows with Posit Tools - Python Focus.html#course-links",
+    "title": "Data Science Workflows with Posit Tools - Python Focus",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Databases with R.html",
+    "href": "workshops/Databases with R.html",
+    "title": "Databases with R",
+    "section": "",
+    "text": "As a data professional, you likely have to deal with databases that are larger than your available RAM. Downloading the data requires patience, applying traditional workflows is frustrating. This workshop will teach you to work with your (large) data:\nThe workshop will introduce basic database concepts and move on with practical work with traditional databases and DuckDB. You are encouraged to bring your own data(base) to immediately apply what you have learned during the workshop. Among others, the workshop showcases the DBI, dbplyr, duckdb, duckplyr, and dm packages.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Databases with R.html#course-links",
+    "href": "workshops/Databases with R.html#course-links",
+    "title": "Databases with R",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Databases with R.html#notes",
+    "href": "workshops/Databases with R.html#notes",
+    "title": "Databases with R",
+    "section": "Notes",
+    "text": "Notes\n\nRegular Expressions Reference: Basic Features: https://www.regular-expressions.info/refbasic.html"
+  },
+  {
+    "objectID": "workshops/Effective Data Visualization with ggplot2.html",
+    "href": "workshops/Effective Data Visualization with ggplot2.html",
+    "title": "Effective Data Visualization with ggplot2",
+    "section": "",
+    "text": "The R programming language provides powerful primitives for data visualization. In particular, for many data scientists the package ggplot2 is the go-to toolkit for making visualizations. Through its modular and extensible design, ggplot2 has mushroomed into a formidable ecosystem, and with the aid of third-party extension packages there is little in terms of data visualization that cannot be done with ggplot2 these days. However, harnessing this flexibility and power can present a steep learning curve. While most users can quickly throw together a scatter plot or histogram, turning the initial figure draft into a carefully designed, publication-ready visualization requires a much deeper understanding of how ggplot2 functions.\nThis workshop has two complementary goals. First, you will learn useful tips and tricks for ggplot2 that will help you make plots that look stylish, unique, and exactly the way you want them to. This will include strategies for layering geoms, customizing coordinate systems and scales, tweaking the plot theme and other aspects of the plot appearance, and creating annotations. Second, you will learn some fundamental principles of figure design. These will include principles for choosing color palettes and for designing for color-vision deficiency, as well as some general principles of communication and design for accessibility.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/Effective Data Visualization with ggplot2.html#course-links",
+    "href": "workshops/Effective Data Visualization with ggplot2.html#course-links",
+    "title": "Effective Data Visualization with ggplot2",
+    "section": "Course Links",
+    "text": "Course Links\n\nWebsite\nFundamentals of Data Visualization Book\nSDS 375 | Data Visualization in R U Texas Course"
+  },
+  {
+    "objectID": "workshops/From R User to R Programmer.html",
+    "href": "workshops/From R User to R Programmer.html",
+    "title": "From R User to R Programmer",
+    "section": "",
+    "text": "This is a one-day, hands-on workshop for intermediate R users who use the tidyverse and want to improve and reduce the amount of duplication in their code. You will learn the two main ways to reduce duplication: creating functions and using iteration.\nWe will use a tidyverse approach to cover function design and iteration. When writing a function you will learn how to deal with “data masking”, give default values to arguments, give unspecified arguments, and what side effects are and how to manage them. In the afternoon, you will learn how to iterate across the columns of a dataframe using across(), what “anonymous” functions are and how to read and write multiple files using purrr.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/From R User to R Programmer.html#course-links",
+    "href": "workshops/From R User to R Programmer.html#course-links",
+    "title": "From R User to R Programmer",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Introduction to Machine Learning in Python with Scikit-learn.html",
+    "href": "workshops/Introduction to Machine Learning in Python with Scikit-learn.html",
+    "title": "Introduction to Machine Learning in Python with Scikit-learn",
+    "section": "",
+    "text": "This workshop will teach you how to perform machine learning for prediction in Python using the widely-used Scikit-learn package. You will be introduced to best practices for machine learning model creation and selection, including data splitting, pre-processing, parameter and model optimization, as well as results visualization and communication. Workshop examples will begin with simple, intuitive models (e.g., K-nearest neighbors, linear regression) but also demonstrate the use of more commonly used and industry standard models (e.g., L1 Regularized regression and Light Gradient Boosting Machines). The workshop will focus on demonstrating how to do this using the modern Scikit-learn pipeline syntax.\nThis course is for you if you:\nIntermediate or expert familiarity with modeling or machine learning is not required."
+  },
+  {
+    "objectID": "workshops/Introduction to Machine Learning in Python with Scikit-learn.html#course-links",
+    "href": "workshops/Introduction to Machine Learning in Python with Scikit-learn.html#course-links",
+    "title": "Introduction to Machine Learning in Python with Scikit-learn",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub\nWebsite\nData Science: A First Introduction (Python Edition) Book\n\nhttps://github.com/UBC-DSCI/introduction-to-datascience-python\nhttps://github.com/UBC-DSCI/introduction-to-datascience-python/tree/main/source/data\n\nAn Introduction to Statistical Learning"
+  },
+  {
+    "objectID": "workshops/Introduction to Machine Learning in Python with Scikit-learn.html#notes",
+    "href": "workshops/Introduction to Machine Learning in Python with Scikit-learn.html#notes",
+    "title": "Introduction to Machine Learning in Python with Scikit-learn",
+    "section": "Notes",
+    "text": "Notes\n\nPandas describe can be useful for getting descriptive summary statistics across an entire dataset: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html\nPrediction error plots across a range of values: https://www.scikit-yb.org/en/latest/api/regressor/peplot.html"
+  },
+  {
+    "objectID": "workshops/Introduction to Shiny for Python.html",
+    "href": "workshops/Introduction to Shiny for Python.html",
+    "title": "Introduction to Shiny for Python",
+    "section": "",
+    "text": "Shiny for Python is a new framework for building performant, beautiful web applications in Python. In this one-day workshop, you will learn the basic building blocks of a Shiny application which will let you create both quick, simple applications and elaborate mission-critical ones.\nIn particular this workshop covers:\nAt the end of this course you will be able to:\nThis course is for you if you are:"
+  },
+  {
+    "objectID": "workshops/Introduction to Shiny for Python.html#course-links",
+    "href": "workshops/Introduction to Shiny for Python.html#course-links",
+    "title": "Introduction to Shiny for Python",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Introduction to tidymodels.html",
+    "href": "workshops/Introduction to tidymodels.html",
+    "title": "Introduction to tidymodels*",
+    "section": "",
+    "text": "This workshop will teach you core tidymodels packages and their uses: data splitting/resampling with rsample, model fitting with parsnip, measuring model performance with yardstick, and basic pre-processing with recipes. Time permitting, you’ll be introduced to model optimization using the tune package. You’ll learn tidymodels syntax as well as the process of predictive modeling for tabular data.\nThis workshop is for you if you:\nIntermediate or expert familiarity with modeling or machine learning is not required. Interested students who have intermediate or expert familiarity with modeling or machine learning may be interested in the Advanced tidymodels workshop."
+  },
+  {
+    "objectID": "workshops/Introduction to tidymodels.html#course-links",
+    "href": "workshops/Introduction to tidymodels.html#course-links",
+    "title": "Introduction to tidymodels*",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/Introduction to tidymodels.html#notes",
+    "href": "workshops/Introduction to tidymodels.html#notes",
+    "title": "Introduction to tidymodels*",
+    "section": "Notes",
+    "text": "Notes\n\nTidy modeling with R Book: https://www.tmwr.org/"
+  },
+  {
+    "objectID": "workshops/Making Tables with gt and Great Tables.html",
+    "href": "workshops/Making Tables with gt and Great Tables.html",
+    "title": "Making Tables with gt and Great Tables*",
+    "section": "",
+    "text": "The gt package for R and the Great Tables package for Python both deal with an important element of written communication: tables. We don’t believe tables have to be drab or dull. Rather, we think that tables have the power to inspire and to excite!\nIn this workshop, you’ll learn about how to make tables that can accurately convey information yet look aesthetically pleasing. We will handle the first stumbling block: what do we even call the different parts of a table? After getting the table terminology down we’ll learn how to effectively assemble the table components and create powerful displays of information. We will start simply and progressively, working toward more complex table designs. Since there are two packages (one in R, one in Python) we will take a blended approach and learn about table generation in bilingual fashion.\nWe’ll cover the following:\n\nCreate table components and put them together (e.g., header, footer, stub, etc.)\nFormat cell values (numeric/scientific, date/datetime, etc.)\nRearranging columns and handling column value alignments\nStyling the table, either through data values or on a more granular level\nAdding icons, plots, images, and incorporating your own HTML more!\n\nThis course is for you if you:\n\nhave some basic working knowledge of either R or Python (separate sets of materials will be available for both R and Python),\nhave data you often need to present as data summaries\nwould like to level-up your ability to generate tables for publication"
+  },
+  {
+    "objectID": "workshops/Posit Academy Introduction to Data Science with R.html",
+    "href": "workshops/Posit Academy Introduction to Data Science with R.html",
+    "title": "Posit Academy: Introduction to Data Science with R*",
+    "section": "",
+    "text": "Looking for Introduction to Data Science with Python? We are offering this as part of our “Posit Academy + Workshop Pass,” available for purchase during registration.\nThis is not a standard workshop, but a six-week, online Posit Academy apprenticeship followed by a one-day, in-person learning experience at posit::conf(2024).\nHere, you will learn the foundations of R for data science together with a close group of fellow learners, under the guidance of a Posit Academy mentor. Topics will include the basics of R, importing data, visualizing and wrangling data with the tidyverse, and reporting reproducibly with Quarto.\nOnline Experience (July 1st - August 9th) You will be expected to complete a weekly curriculum of interactive tutorials and an applied data science project. You will attend two weekly meetings with your mentor and fellow learners via Zoom to work together, ask questions, and share your work with your group. Visit posit.co/academy to learn more about this uniquely effective learning format.\nIn-person experience (August 12th) You will join your fellow learners at posit::conf(2024) to practice, apply and extend what you have learned through a series of group coding challenges, led by Posit Academy staff.\nThis course is for you if you:\n\nare new to R or the tidyverse,\nhave dabbled in R, but now want a rigorous foundation in up-to-date data science best practices, or\nare a SAS or Excel user looking to switch your workflows to R."
+  },
+  {
+    "objectID": "workshops/R in Production.html",
+    "href": "workshops/R in Production.html",
+    "title": "R in Production",
+    "section": "",
+    "text": "What it means to put R in production varies tremendously from organisation to organisation. However, I believe that there are common principles that you can learn to improve your code, regardless of the precise details of what production means for your organisation.\nThis workshop is organised around three big differences between running a local script on your computer and putting your code into production:\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/R in Production.html#course-links",
+    "href": "workshops/R in Production.html#course-links",
+    "title": "R in Production",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/What They Forgot To Teach You About R.html",
+    "href": "workshops/What They Forgot To Teach You About R.html",
+    "title": "What They Forgot To Teach You About R",
+    "section": "",
+    "text": "This one day What They Forgot (WTF) To Teach You About R workshop is for experienced R and RStudio users who want to better understand R execution via debugging and personal R administration. At the conclusion of the workshop you will have distinct strategies for debugging your own code versus someone else’s code, as well as strategies for maintaining your R installation through the lens of reproducibility.\nThis course is for you if you:"
+  },
+  {
+    "objectID": "workshops/What They Forgot To Teach You About R.html#course-links",
+    "href": "workshops/What They Forgot To Teach You About R.html#course-links",
+    "title": "What They Forgot To Teach You About R",
+    "section": "Course Links",
+    "text": "Course Links\n\nGitHub"
+  },
+  {
+    "objectID": "workshops/What They Forgot To Teach You About R.html#notes",
+    "href": "workshops/What They Forgot To Teach You About R.html#notes",
+    "title": "What They Forgot To Teach You About R",
+    "section": "Notes",
+    "text": "Notes\n\nGitHub and GitLab Command Line Interfaces (CLIs) – Solutions: https://solutions.posit.co/operations/git-cli/index.html#gh-for-github\ngit-credential-oauth: https://github.com/hickford/git-credential-oauth"
+  }
+]

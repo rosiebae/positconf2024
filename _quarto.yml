@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  site-url: https://rosiebae.github.io/positconf2024/
+  repo-url: https://github.com/rosiebae/positconf2024
+  repo-actions: [edit, issue]
+  title: "posit::conf(2024) notes"
+  page-footer: "Made with ❤️ and Quarto"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        icon: house-door-fill
+      - href: workshops.qmd
+        text: Workshops
+        icon: bi-tools
+      - href: keynotes.qmd
+        text: Keynotes
+        icon: bi-person
+      - href: sessions.qmd
+        text: Sessions
+        icon: bi-chat-dots
+
+format:
+  html:
+    theme:  # flatly, zephyr, journal
+      light: [journal, styles_light.css]
+      dark: darkly
+    toc: true
+    from: markdown+emoji
+    number-sections: true
+    number-depth: 1
+    embed-resources: true
+    other-links:
+      - text: posit::conf(2024) webpage
+        icon: globe
+        href: https://posit.co/conference/
+      - text: Agenda
+        icon: calendar-check
+        href: https://reg.conf.posit.co/flow/posit/positconf24/publiccatalog/
+      - text: Virtual swag bag
+        icon: github
+        href: https://github.com/posit-marketing/posit-conf-virtual-swag-bag
+      - text: Workshop material
+        icon: github
+        href: https://github.com/posit-conf-2024
+      - text: Session material
+        icon: github
+        href: https://github.com/rstudio/rstudio-conf/blob/master/2024/README.md
+      - text: Posit YouTube
+        icon: youtube
+        href: https://www.youtube.com/@PositPBC
+
+editor: visual
+

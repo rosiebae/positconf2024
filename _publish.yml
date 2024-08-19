@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 8560b921-191c-45d6-a684-bfc4cf3cb659
+      url: 'https://rosiebae.quarto.pub/positconf2024'

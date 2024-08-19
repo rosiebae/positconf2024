@@ -1,0 +1,9 @@
+---
+title: "posit::conf(2024)"
+---
+
+![](images/posit_conf_2024.jfif)
+
+## Session Videos
+
+* [:arrow_forward: Session Videos](https://www.youtube.com/@PositPBC) **Will Become Available October/November 2024**
