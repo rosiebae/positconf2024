@@ -14,8 +14,12 @@ This course is for you if you:
 * want to improve the design, user interface, and experience of your dashboards
 
 ## Course Links
-* [GitHub](https://posit-conf-2024.github.io/quarto-dashboards/)
-* [Example GitHub repo](https://github.com/posit-conf-2024/olympicdash)
+* [Website](https://posit-conf-2024.github.io/quarto-dashboards/)
+* [GitHub](https://github.com/posit-conf-2024/quarto-dashboards)
+* Example Olympic Dashboard
+  + [GitHub](https://github.com/posit-conf-2024/olympicdash)
+  + [R Version](https://mine.quarto.pub/olympic-games-r/)
+  + [Python Version](https://mine.quarto.pub/olympic-games-py)
 * [Quarto Guide](https://quarto.org/docs/guide/)
 
 ## Notes
