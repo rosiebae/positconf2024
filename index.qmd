@@ -6,7 +6,7 @@ title: "Rosie's posit::conf(2024) notes"
 
 <br>
 
-:arrow_forward: **[Session videos](https://www.youtube.com/@PositPBC) will become publicly available on YouTube in November 2024**
+:arrow_forward: **[posit::conf(2024) YouTube Playlist](https://www.youtube.com/watch?v=s_Vh9HIeLVg&list=PL9HYL-VRX0oSFkdF4fJeY63eGDvgofcbn)**
 
 <br>
 
